@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preload" href="../../css/main.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="../../css/event-detail.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="../../css/events.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="../../js/main.js" as="script">
+    <link rel="preload" href="../../js/events.js" as="script">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="description" content="{{ description }}">
+
+    <link rel="canonical" href="https://mixteen.org/events/{{dir}}/{{filename}}.html">
+
+    <title>{{ title }}</title>
+
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mixteen.org/events/{{dir}}/{{filename}}.html">
+    <meta property="og:description" content="{{ description }}">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="MixTeen">
+    <link rel="icon" sizes="192x192" href="img/touch/chrome-touch-icon.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="MixTeen">
+    <link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/touch/ms-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#2196f3">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2196f3">
+
+    <style>
+        body {
+            min-height: 100vh;
+            max-height: 100vh;
+            font-family: "Lato, Helvetica", "Arial", "sans-serif";
+            padding: 0;
+            margin: 0; }
+
+        header {
+            min-height: 64px;
+            box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+            background-color: #2c233d;
+            display: -webkit-flex;
+            display: flex;
+            box-sizing: border-box;
+            z-index: 99;
+            transition-duration: 0.2s;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: max-height, box-shadow; }
+
+        main {
+            height: calc(100vh - 64px);
+            overflow-x: hidden;
+            overflow-y: scroll;
+            background-color: white; }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        * {
+            box-sizing: border-box; /* pour maîtriser width et flex-basis */
+        }
+        mixteen-block {
+            display: block;
+            margin: 0 auto;
+            max-width: 1600px;
+            padding: 2em 1em; }
+
+        @media (max-width: 700px) {
+            mixteen-block {
+                padding: 0 0; } }
+        @media (min-width: 701px) and (max-width: 900px) {
+            mixteen-block {
+                padding: 1em 1em; } }
+
+        .dm-social {
+            min-width: 2em;
+            max-width: 2em;
+            width: 2em;
+            height: 2em;
+        }
+        nav {
+            display: -webkit-flex;
+            display: flex; }
+        @media screen and (min-width: 901px) {
+            nav {
+                padding-left: 1em; } }
+        nav a {
+            padding: 0 12px;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 64px;
+            height: 60px;
+            border-bottom: 4px solid #2c233d;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px; }
+        @media screen and (min-width: 901px) {
+            nav a {
+                padding: 0 24px; } }
+        nav a:hover {
+            background-color: #424242; }
+        nav .is-active {
+            border-bottom: 4px solid white;
+            color: white; }
+        nav a > img {
+            padding-top: 16px; }
+    </style>
+</head>
+<body class="mixteen">
+<header class="header-wrapper">
+    <nav>
+        <a href="../../index.html" class="mdl-layout__tab"
+           id="#home" onclick="app.changeMenu('#home')"><img src="../../img/ic_home_white_24px.svg" rel="start" alt="Accueil"></a>
+        <a href="../../events.html" class="mdl-layout__tab"
+           id="#events" onclick="app.changeMenu('#events')">Events</a>
+        <a href="../../index.html#formation" class="mdl-layout__tab"
+           id="#formation" onclick="app.changeMenu('#formation')">Formations</a>
+        <a href="../../index.html#experience" class="mdl-layout__tab is-large-screen"
+           id="#experience" onclick="app.changeMenu('#experience')">Expérience</a>
+        <a href="../../index.html#contact" class="mdl-layout__tab"
+           id="#contact" onclick="app.changeMenu('#contact')">Contact</a>
+    </nav>
+</header>
+<main>
+    <div class="dm_head">
+        <mixteen-block>
+            <p class="dm_logo">
+                <img src="../../../img/logo/logo_mixteen_alt_simple.svg" alt="MixTeen" title="MixTeen" style="padding: 0 2em;max-width: 600px">
+            </p>
+        </mixteen-block>
+    </div>
+    &nbsp;
+    <div class="dm_home_event" id="event">
+        <mixteen-article>
+            <article>
+                <h1>{{ title }}</h1>
+                <div class="dm-event--info-date"><small><b>{{ revdate }}</b></small> <small id="nbview"></small></div>
+                <div id="event-keywords"></div>
+                <div class="swp-event--content">
+                {{{ contents }}}
+                </div>
+            </article>
+        </mixteen-article>
+    </div>
+
+    <div class="dm_home_formation" id="formation">
+        <mixteen-header>
+            <div class="dm-event--button">
+                <p>Partagez cet article</p>
+                <button onclick="events.sendSocial('twitter', 'https://mixteen.org/events/{{dir}}/{{filename}}.html', '{{ title }}')"><img src="../../img/contact/twitter.svg" alt="Twitter" class="dm-social"></button>
+                <button onclick="events.sendSocial('google+', 'https://mixteen.org/events/{{dir}}/{{filename}}.html', '{{ title }}')"><img src="../../img/contact/googlep.svg" alt="Github" class="dm-social"></button>
+                <button onclick="events.sendSocial('facebook', 'https://mixteen.org/events/{{dir}}/{{filename}}.html', '{{ title }}')"><img src="../../img/contact/facebook.svg" alt="Facebook" class="dm-social"></button>
+                <button onclick="events.sendSocial('linkedin', 'https://mixteen.org/events/{{dir}}/{{filename}}.html', '{{ title }}')"><img src="../../img/contact/linkedin.svg" alt="Linkedin" class="dm-social"></button>
+                <br>
+                <div id="previous-event"></div>
+                <div class="dm-event-comment--add">
+                    <h2>Commentaires</h2>
+                    <div id="comments"></div>
+                    <article>
+                        <h3><a href="#" onclick="events.displayCommentForm()">Ajouter un commentaire</a></h3></label>
+                        <form name="comment" id="commentFrm" style="display: none">
+                            <textarea class="dm-event-comment--control" required name="comment" rows="6" onchange="events.onFormCommentChange()"></textarea>
+                            <label for="name"><b>Prénom</b></label>
+                            <input class="dm-event-comment--control" required id="name" name="name" type="text" onchange="events.onFormCommentChange()">
+                            <label for="mail">Mail</label>
+                            <input class="dm-event-comment--control" id="mail" name="mail" type="email" placeholder="identifiant@fournisseur.com" pattern=".+@.+.com" onchange="events.onFormCommentChange()">
+                            <small>Le mail n'est jamais affiché et me sert uniquement à vous contacter pour répondre à vos questions</small>
+                            <br>
+                            <button type="button" onclick="events.saveComment('{{filename}}')" id="saveComments" style="margin-top: 1em" disabled="true">Envoyer</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </mixteen-header>
+
+    </div>
+
+    <footer>
+        <div class="dm_footer">
+            <div class="dm_footer__left">
+                <p>
+                    All right reserved - @2017 MixTeen
+                </p>
+            </div>
+            <div class="dm_footer__middle is-large-screen">
+                <p><img src="../../img/mxt-icon--heart.svg" alt="MixTeen" title="Heart"></p>
+            </div>
+            <div class="dm_footer__right">
+                <p>
+                    <a href="https://twitter.com/mixteen" target="_blank" rel="noopener"><img src="../../img/contact/twitter.svg" alt="Twitter" class="dm-social"></a>
+                    <a href="https://github.com/MixTeen" target="_blank" rel="noopener"><img src="../../img/contact/github.svg" alt="Github" class="dm-social"></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</main>
+<script async defer src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+<script async defer src="../../js/main.js">events=true;</script>
+<script async defer src="../../js/loadCSS.js"></script>
+<script async defer src="../../js/cssrelpreload.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase-database.js"></script>
+<script src="../../js/events.js">events=true;dev={{modedev}}</script>
+<script>
+    window.addEventListener("load", function(){
+        events.findPreviousEvent('{{filename}}');
+        events.findComments('{{filename}}');
+    });
+</script>
+<script async defer src="../../js/dmanalytics.js"></script>
+</body>
+</html>

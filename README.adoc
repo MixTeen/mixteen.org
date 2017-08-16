@@ -1,0 +1,65 @@
+image::src/images/logo/logo_mixteen_baseline.png[MixTeen]
+
+== Browser Support
+
+At present, we officially aim to support the last two versions of the following browsers:
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Opera
+* Internet Explorer 9+
+
+== Configure your desktop
+
+You need to use https://nodejs.org/en/[Node] > 7.0. The lifecycle of the dependencies is managed by https://yarnpkg.com/en/[Yarn] and the lifecycle of the app by http://gulpjs.com/[Gulp].
+
+The website uses Firebase to store elements to faciliate the search of the past or futures events. The different events are written in Asciidoc files (see `/src/events`). Gulp uses asciidoctor to read the metadata defined in these files and writes an index of the different events in Firebase. The firebase access is secured. To use Gulp you have to create a file `firebase.json` at the root of the project. For example the file contains
+
+[source, javascript, subs="none"]
+{
+  "user": "guillaume@dev-mind.fr",
+  "password": "MONPASSWORD",
+  "apiKey": "AIzaSyCs7mysy-27y7UazMDrEwpDAwh5XUsZICI",
+  "authDomain": "mixteen-d85dc.firebaseapp.com",
+  "databaseURL": "https://mixteen-d85dc.firebaseio.com",
+  "projectId": "mixteen-d85dc",
+  "storageBucket": "mixteen-d85dc.appspot.com"
+}
+----
+
+User and password are given by the mixteen team
+
+== Build site
+
+To install the project use
+
+[source, shell, subs="none"]
+----
+yarn install
+----
+
+If `yarn` is not present on your desktop, you can use before a
+[source, shell, subs="none"]
+----
+npm install -g yarn
+----
+
+To launch the website locally use this command line
+
+[source, shell, subs="none"]
+----
+gulp serve
+----
+
+To build the project launch (be carefull, a complete build rewrite the event index in firebase)
+
+[source, shell, subs="none"]
+----
+gulp
+----
+
+== License
+
+MIT

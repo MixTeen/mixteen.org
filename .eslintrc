@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": 1
+  },
+  "globals": {
+    "angular": 1
+  },
+  "rules": {
+    "valid-jsdoc": 0
+  }
+}

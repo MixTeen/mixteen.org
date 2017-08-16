@@ -1,0 +1,11 @@
+:doctitle: RMML 2017
+:description:  MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017
+:keywords: RMLL
+:author: Guillaume EHRET - MixTeen
+:revdate: 2017-07-05
+:category: Web
+:teaser: MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017 avec un atelier construire son propre ordinateur
+:imgteaser: ../../img/events/2017/rmll_00.png
+
+
+== Rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet

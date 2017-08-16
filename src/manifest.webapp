@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "MixTeen",
+  "launch_path": "/index.html",
+  "description": "MixTeen born to code : venez apprendre les bases de la programmation avec nous",
+  "start_url": "/index.html"
+  "icons": {
+    "128": "/images/touch/icon.png"
+  },
+  "developer": {
+    "name": "Guillaume EHRET",
+    "url": "https://mixteen.org/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "fr",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "MixTeen",
+      "description": "MixTeen born to code : venez apprendre les bases de la programmation avec nous"
+    }
+  }
+}
