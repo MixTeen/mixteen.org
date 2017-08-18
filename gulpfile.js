@@ -7,7 +7,6 @@ const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const runSequence = require('run-sequence');
-const swPrecache = require('sw-precache');
 const wbBuild = require('workbox-build');
 
 const $ = require('gulp-load-plugins')();
