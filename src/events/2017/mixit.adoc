@@ -1,0 +1,36 @@
+:doctitle: MiXiT 2017
+:description:  MixTeen propose son atelier annuel à la conférence MiXiT le 21 avril 2017
+:keywords: RMLL
+:author: Guillaume EHRET - MixTeen
+:revdate: 2017-04-21
+:category: Web
+:teaser: MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017 avec un atelier construire son propre ordinateur
+:imgteaser: ../../img/events/2017/rmll_00.png
+
+
+== MiXiT le vendredi 21 avril 2017
+
+Les inscriptions se font exclusivement via la billeterie https://yurplan.com/event/Mi-X-Tee-N-2017/15972[YurPlan].
+
+=== Qu'est ce qu'on fait ?
+Plusieurs activités seront proposées
+
+* Pour tous : http://scratch.mit.edu/[Scratch]
+* Ateliers de découverte des principes de l'informatique : jeux pour découvrir le binaire, le codage d'images...
+* https://www.thymio.org/fr:thymio[Thymio] : un petit robot facile à programmer qui permet de comprendre les bases de la robotique, et se déplace suivant les différentes instructions des enfants.
+* http://microbit.org/[Micro:bit] : une carte élaboré sous la supervision de la BBC à destination des écoliers anglais. Elle permet l’initiation à l’électronique, l’IoT et la programmation.
+* http://www.lexaloffle.com/pico-8.php[Pico-8] : à l'aide d'une console qui n'a jamais existé mais qui se programme, inventez et programmez vos propres jeux.
+* Les plus courageux installeront à l'avance les outils nécessaires: pour Scratch installer l'application en https://scratch.mit.edu/scratch2download/[version 2.0]
+
+=== Comment ça se passe ?
+
+Rendez-vous le vendredi 21 avril à 14h30 à l'école CPE (https://mixitconf.org/about[même endroit que MiXiT]). L'enfant peut venir avec son ordinateur portable mais s'il n'en a pas nous pourrons lui en prêté un.
+
+Le programme est le suivant
+* Une première série d'ateliers en binômes démarre.
+* Un petit gouter
+* Deuxième série d'ateliers, on fait tourner sur les activités
+
+Vers 17h, les enfants présentent leurs réalisations aux autres enfants et aux parents ébahis de tant de prouesses technologiques ;). Puis dans la foulée à 18h00, nous montrerons à l'assemblée réunie de MiXiT le résultat de notre après midi.
+
+Une question ? mailto:mixteen.lyon@gmail.com[Contactez-nous!]
