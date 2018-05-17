@@ -103,7 +103,7 @@ Pour rappel les articles de blog apparaissent
 ==== Ressources
 Chaque article doit au moins avoir
 
-* une image de 1500 pixels par 764. Dans Gimp c'est simple d'aller changer les dimensions (`Menu Image` > `Canvas Size` ou `Menu Image` > `Resize image`
+* une image de 1500 pixels par 764 (ou 640 x 326). Dans Gimp c'est simple d'aller changer les dimensions (`Menu Image` > `Canvas Size` ou `Menu Image` > `Resize image`
 * un titre unique (important pour les moteurs de recherche)
 * une phrase d'intro sui sera reprise dans le descriptif des articles de blogs
 * un contenu avec potentiellement d'autres images
