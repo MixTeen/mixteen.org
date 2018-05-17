@@ -66,6 +66,9 @@ h2{
   .dm_grid__element_first{
     flex: 1;
     margin: 1em 0em;
+    @media (max-width: $max_width_mobile) {
+      margin: 1em;
+    }
   }
 }
 
