@@ -1,0 +1,14 @@
+{
+  "404.html" : {
+    "keywords": "MixTeen est une association créée pour promouvoir le code et l'informatique auprès des enfants et des ados",
+    "title": "MixTeen 404",
+    "description" : "Page non trouvée sur le serveur",
+    "priority": -1
+  },
+  "shell.html" : {
+    "keywords": "MixTeen",
+    "title": "MixTeen - app loading",
+    "description" : "MixTeen born to code",
+    "priority": -1
+  }
+}

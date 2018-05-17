@@ -1,0 +1,10 @@
+{
+  "blogurl" : "https://mixteen.org/blog",
+  "blogimgurl" : "https://mixteen.org/img/blog",
+  "rssurl": "https://mixteen.org/rss/blog.xml",
+  "title": "Le blog MixTeen vous propose des descriptions des événéments organisés par l'association",
+  "description": "Le blog MixTeen vous propose des descriptions des événéments organisés par l'association",
+  "copyright": "Copyright MixTeen",
+  "logourl":"https://mixteen.org/img/logo/logo_mixteen_alt_200.png",
+  "shorttile": "Le blog de MixTeen"
+}

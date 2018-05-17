@@ -7,10 +7,6 @@
   "icons": {
     "128": "/images/touch/icon.png"
   },
-  "developer": {
-    "name": "Guillaume EHRET",
-    "url": "https://mixteen.org/"
-  },
   "installs_allowed_from": [
     "*"
   ],

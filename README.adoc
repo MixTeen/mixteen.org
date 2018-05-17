@@ -1,65 +1,204 @@
 image::src/images/logo/logo_mixteen_baseline.png[MixTeen]
 
-== Browser Support
+== Le site web de MixTeen
 
-At present, we officially aim to support the last two versions of the following browsers:
+Ce projet permet de gérer le site web de MixTeen. Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
+
+== D'un point de vue technique
+
+=== Compatibilité navigateur
+
+Le site n'est compatible que sur les navigateurs dits "modernes" (pouvant exécuter du JavaScript ES > 6). Vous pouvez donc utiliser les navigateurs suivant
 
 * Chrome
 * Edge
 * Firefox
 * Safari
-* Opera
-* Internet Explorer 9+
+* Edge voir Internet Explorer >= 11
 
-== Configure your desktop
+=== Configurer ton poste de développement
 
-You need to use https://nodejs.org/en/[Node] > 7.0. The lifecycle of the dependencies is managed by https://yarnpkg.com/en/[Yarn] and the lifecycle of the app by http://gulpjs.com/[Gulp].
+Ce projet est Open Source et toutes les personnes motivées sont les bienvenues pour nous aider à faire évoluer notre site web.
 
-The website uses Firebase to store elements to faciliate the search of the past or futures events. The different events are written in Asciidoc files (see `/src/events`). Gulp uses asciidoctor to read the metadata defined in these files and writes an index of the different events in Firebase. The firebase access is secured. To use Gulp you have to create a file `firebase.json` at the root of the project. For example the file contains
+D'un point de vue technique tu as besoin pour lancer le site en local
 
-[source, javascript, subs="none"]
-{
-  "user": "guillaume@dev-mind.fr",
-  "password": "MONPASSWORD",
-  "apiKey": "AIzaSyCs7mysy-27y7UazMDrEwpDAwh5XUsZICI",
-  "authDomain": "mixteen-d85dc.firebaseapp.com",
-  "databaseURL": "https://mixteen-d85dc.firebaseio.com",
-  "projectId": "mixteen-d85dc",
-  "storageBucket": "mixteen-d85dc.appspot.com"
-}
-----
+* D'une version de https://nodejs.org/en/[Node JS] > 7.0 (idéalement > 9). Tu peux aller sur le site pour installer Node sur ta machine. Le site ne fonctionne pas directement avec Node mais nous utilisons l'écosystème JavaScript pour le générer.
+* Lors de l'installation nous allons télécharger des dépendances Node et pour celà nous utilisons le gestionnaire de paquets https://yarnpkg.com/en/[Yarn]. Si `yarn` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g yarn` (npm est automatiquement installé en même temps que Node)
+* Le cycle de vie de l'application est lui géré par l'application http://gulpjs.com/[Gulp]. Si `gulp` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g gulp`
+* Le site utilise FireBase pour la gestion des commentaires. Notre compte est https://mixteen-d85dc.firebaseio.com. Pour commencer à développer tu n'as rien besoin de paramétrer sur ton poste
 
-User and password are given by the mixteen team
+=== Installer le site en local
 
-== Build site
+Une fois que tous les outils décrits dans la partie précédente sont installés tu peux lancer les commandes suivantes
 
-To install the project use
+*Initialiser le projet* et charger les librairies utilisées pour le développement
 
 [source, shell, subs="none"]
 ----
 yarn install
 ----
 
-If `yarn` is not present on your desktop, you can use before a
-[source, shell, subs="none"]
-----
-npm install -g yarn
-----
-
-To launch the website locally use this command line
+*Lancer le site en local*
 
 [source, shell, subs="none"]
 ----
 gulp serve
 ----
 
-To build the project launch (be carefull, a complete build rewrite the event index in firebase)
+Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
+
+* _initModeDev_ : initialise le mode développement afin de ne pas pourir en dev la base Firebase de production
+* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
+* _styles_ : compile les fichiers Sass en CSS
+* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
+* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
+* _images-post_ : copie les images dans le répertoire de sortie
+* _lint_ : analyse le code pour détecter les problèmes
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template mustache pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
+* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
+* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
+* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
+* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
+* _serveAndWatch_ : démarre un serveur web pour les tests et active un mode watch pour que les ressources soient automatiquement mises à jour quand elles sont modifiées
+
+
+*Générer le site pour la production*
 
 [source, shell, subs="none"]
 ----
 gulp
 ----
 
-== License
+Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
 
-MIT
+* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
+* _styles_ : compile les fichiers Sass en CSS
+* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
+* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
+* _images-post_ : copie les images dans le répertoire de sortie
+* _lint_ : analyse le code pour détecter les problèmes
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template mustache pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
+* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
+* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
+* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
+* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
+* _sitemap_ : génère le fichier sitemap.xml pour les robots indexeurs
+
+== Contribuer au site
+
+Je viens de parler de la partie technique mais pas besoin de maîtriser tout ça pour participer à ce projet.
+
+=== Level 1 : ajouter un article
+
+Pour chaque événement on rajoute un article dans le répertoire blog. Les différents posts sont classés par année. Afin d'illustrer un article c'est bien d'utiliser une image dans la banque d'images que l'on peut trouver sous flickr ou ailleurs. Comme ça dans la liste des posts de notre blog on aura aussi bien une image et du texte
+
+Pour rappel les articles de blog apparaissent
+
+* sur la home (les 2 derniers)
+* la page blog la liste des 20 derniers
+* la page archive où on retrouvera l'intégralité
+
+==== Ressources
+Chaque article doit au moins avoir
+
+* une image de 1500 pixels par 764. Dans Gimp c'est simple d'aller changer les dimensions (`Menu Image` > `Canvas Size` ou `Menu Image` > `Resize image`
+* un titre unique (important pour les moteurs de recherche)
+* une phrase d'intro sui sera reprise dans le descriptif des articles de blogs
+* un contenu avec potentiellement d'autres images
+
+Les images des articles pour plus de clarté doivent être mises dans le répertoire `images/blog/[annee]`
+
+==== Nom fichier source article
+
+Pour débuter vous pouvez copier un article existant.
+
+Il est important de ne pas avoir de caractères spéciaux dans le nom du fichier .adoc. Remplacez les espaces par des `_`
+Ce nom est important car la page HTML aura exactement le même nom. Soyez concis et clair
+
+==== Rédaction
+
+Les articles sont rédigés en Asciidoctor. La doc est assez complète https://asciidoctor.org/docs/user-manual/
+
+[source, asciidoctor, subs="none"]
+----
+:doctitle: RMML 2017
+:description:  MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017
+:keywords: RMLL
+:author: Guillaume EHRET - MixTeen
+:revdate: 2017-07-05
+:category: Web
+:teaser: MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017 avec un atelier construire son propre ordinateur
+:imgteaser: ../../img/blog/2017/rmll_00.png
+
+
+== Rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet
+
+Ceci est un exemple d'article et on peut écrire en ascii doctor
+----
+
+Le générateur du site va exploiter les premières lignes du fichier
+
+* _doctitle_ => utiliser pour la balise `<title>` dans le head de la page HTML
+* _description_ => utiliser pour la balise `<meta name="description">` dans le head de la page HTML
+* _keywords_ => utiliser pour la balise `<meta name="keywords">` dans le head de la page HTML
+* _author_ => utiliser sur le détail d'un article
+* _revdate_ => au format anglais 2017-07-05, cette date est utilisée pour trier les articles
+* _category_ => donne des infos sur le détail d'un article
+* _teaser_ => c'est le texte que l'on retrouve pour résumer l'article
+* _imgteaser_ => un lien relatif vers l'image utilsiée. Par exemple ../../img/blog/2017/rmll_00.png
+
+
+=== Level 2 : page HTML
+
+Pour ajouter une page statique au site c'est possible de le faire en ajoutant un fichier dans le répertoire HTML. Vous ne vous souciez que du contenu. Tout le reste est autmatiquement ajouté lors de la génération du site
+
+Par contre comme nous avons besoin de générer un titre, une description... A chaque fos que vous ajoutez une page dans ce répertoire vous devez mettre à jour le fichier `src/metadata/html.json`.
+
+Par exemple
+
+[source, asciidoctor, subs="none"]
+----
+{
+  "404.html" : {
+    "keywords": "MixTeen est une association créée pour promouvoir le code et l'informatique auprès des enfants et des ados",
+    "title": "MixTeen 404",
+    "description" : "Page non trouvée sur le serveur",
+    "priority": -1
+  },
+
+}
+----
+
+La clé est le nom du fichier html. On trouve les propriétés suivantes
+
+* _title_ => utiliser pour la balise `<title>` dans le head de la page HTML
+* _description_ => utiliser pour la balise `<meta name="description">` dans le head de la page HTML
+* _keywords_ => utiliser pour la balise `<meta name="keywords">` dans le head de la page HTML
+* _priority_ => utiliser dans le fichier sitemap.xml pour la pertinence
+
+Si cette page doit être ajoutée au menu, tu peux modifier le fichier `src/template/_page_header.mustache`.
+
+Si tu oublies de référencer la page dans le fichier metadata tu auras une erreur à l'installation du site
+
+=== Level 3 : template Mustache
+
+Mustache est utilisé pour éviter de faire de la duplication de code entre les pages. Normalement le seul template que l'on a vraiment besoind e changer est le template `index.mustache` qui contient le contenu de la home. C'est un template et pas une page HTML car on insère à l'intérieur les deux derniers articles de blog.
+
+Les sous templates sont
+
+* __blog_intro.mustache_ : entête des articles de blog
+* __html_footer.mustache_ : pied HTML (fichiers JavaScript)
+* __html_header.mustache_ : entête HTML (metadata, fichier CSS...)
+* __page_footer.mustache_ : pied de page (lien, copyright)
+* __page_header.mustache_ : menu
+
+Les autres templates sont
+
+* _blog.mustache_ : le template utilisé pour le détail d'un article de blog
+* _blog_archive.mustache_ : archive avec tous les blogs depuis le début
+* _blog_list.mustache_ : la page blog avec les 20 derniers articles
+* _index.mustache_ : la page index avec les 2 derniers articles
+* _site.mustache_ : la page site qui est utilisé pour générer les pages qui sont dans le réertoire HTML
+

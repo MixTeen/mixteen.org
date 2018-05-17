@@ -1,0 +1,19 @@
+{
+  "index.html" : {
+    "keywords": "MixTeen est une association créée pour promouvoir le code et l'informatique auprès des enfants et des ados",
+    "title": "MixTeen",
+    "description" : "MixTeen est une association créée pour promouvoir le code et l'informatique auprès des enfants et des ados",
+    "priority": 0.8
+  },
+  "blog.html": {
+    "keywords": "Retrouvez tous les événements et les ressources partagées sur notre blog",
+    "title": "Le blog MixTeen",
+    "description": "Le blog MixTeen vous propose des descriptions des événéments organisés par l'association"
+  },
+  "blog_archive.html": {
+    "keywords": "MixTeen blog archive",
+    "title": "Les archives du blog MixTeen",
+    "description": "Retrouvez l'intégralité des articles du blog blog MixTeen qui vous propose des descriptions des événéments organisés par l'association",
+    "blog": "findArchiveBlogpost"
+  }
+}

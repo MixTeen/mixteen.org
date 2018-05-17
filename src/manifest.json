@@ -6,24 +6,24 @@
         "sizes": "128x128",
         "type": "image/png"
       }, {
-        "src": "img/touch/apple-touch-icon.png",
+        "src": "img/touch/logo-apple-touch.png",
         "sizes": "152x152",
         "type": "image/png"
       }, {
-        "src": "img/touch/ms-touch-icon.png",
+        "src": "img/touch/logo-ms-touch.png",
         "sizes": "144x144",
         "type": "image/png"
       }, {
-        "src": "img/touch/chrome-touch-icon.png",
+        "src": "img/touch/logo-chrome-touch.png",
         "sizes": "192x192",
         "type": "image/png"
       }, {
-        "src": "img/touch/logo_500.png",
-        "sizes": "512x512",
+        "src": "img/touch/logo_300.png",
+        "sizes": "300x300",
         "type": "image/png"
       }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#90CAF9",
-  "theme_color": "#2196f3"
+  "background_color": "#2c233d",
+  "theme_color": "#FF8D4E"
 }
