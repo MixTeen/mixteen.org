@@ -5,7 +5,7 @@
 :revdate: 2017-04-21
 :category: Web
 :teaser: MixTeen est aux rencontres mondiales du logiciel libre à Saint Etienne le mercredi 5 juillet 2017 avec un atelier construire son propre ordinateur
-:imgteaser: ../../img/blog/2017/rmll_00.png
+:imgteaser: ../../img/blog/2017/head/mixit_head.jpg
 
 
 == MiXiT le vendredi 21 avril 2017

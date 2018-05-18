@@ -45,6 +45,20 @@
 
 }
 
+.dm_home_blog {
+  @include dm_home_row(#e6e6e6, #303e5e);
+
+  @include dm_home_link(#474747);
+
+  .dm_logo{
+    text-align: center;
+    img{
+      width:40%;
+      height:auto;
+    }
+  }
+}
+
 .dm_home_contact {
   @include dm_home_row(#5f5346, white);
 }
