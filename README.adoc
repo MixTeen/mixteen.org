@@ -188,7 +188,6 @@ Mustache est utilisé pour éviter de faire de la duplication de code entre les 
 
 Les sous templates sont
 
-* __blog_intro.mustache_ : entête des articles de blog
 * __html_footer.mustache_ : pied HTML (fichiers JavaScript)
 * __html_header.mustache_ : entête HTML (metadata, fichier CSS...)
 * __page_footer.mustache_ : pied de page (lien, copyright)
