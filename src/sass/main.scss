@@ -106,6 +106,34 @@ h2{
   margin: auto;
 }
 
+.dm-blog--article {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  @include dm_box__shadow;
+  cursor: pointer;
+
+  > h3 {
+    font-size: $h3_screen_fontsize;
+    line-height: ($h3_screen_fontsize+2);
+  }
+
+  @media (max-width: $max_width_mobile) {
+    flex: 0 1 auto;
+    padding: 0.5em;
+    margin: 0.3em 0;
+    min-height: 5em;
+
+    > h3 {
+      font-size: $text_head_mobile;
+      line-height: ($text_head_mobile+2);
+    }
+  }
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
