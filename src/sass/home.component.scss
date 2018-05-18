@@ -46,7 +46,7 @@
 }
 
 .dm_home_blog {
-  @include dm_home_row(#e6e6e6, #303e5e);
+  @include dm_home_row($color_secondary, $color_primary);
 
   @include dm_home_link(#474747);
 
@@ -59,10 +59,13 @@
   }
 }
 
-.dm_home_contact {
-  @include dm_home_row(#5f5346, white);
+.dm_home_block {
+  @include dm_home_row(white, $color_primary);
+  padding-bottom: 8em;
+  @media (max-width: $max_width_mobile) {
+    padding-bottom: 1em;
+  }
 }
-
 
 .dm-social {
   &:hover{
