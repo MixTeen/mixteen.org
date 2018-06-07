@@ -1,0 +1,39 @@
+:doctitle: MiXiT 2018
+:description:  MixTeen propose son atelier annuel à la conférence MiXiT le 21 avril 2017
+:keywords: MiXiT
+:author: Gérald Quintana - MixTeen
+:revdate: 2017-04-20
+:category: Web
+:teaser: 
+:imgteaser: ../../img/logo/logo_mmi_blog.png
+
+
+== MiXiT le vendredi 20 avril 2018
+
+Les inscriptions se font exclusivement via la billeterie https://www.billetweb.fr/atelier-mixteen-avril-2018[Billet Web].
+
+=== Qu'est ce qu'on fait ?
+
+Plusieurs activités seront proposées:
+
+* Pour tous : http://scratch.mit.edu/[Scratch]
+* Ateliers de découverte des principes de l'informatique : jeux pour découvrir le binaire, le codage d'images...
+* https://www.thymio.org/fr:thymio[Thymio] : un petit robot facile à programmer qui permet de comprendre les bases de la robotique, et se déplace suivant les différentes instructions des enfants.
+* http://microbit.org/[Micro:bit] : une carte élaborée sous la supervision de la BBC à destination des écoliers anglais. Elle permet l’initiation à l’électronique, l’IoT et la programmation.
+* https://microbit.edublocks.org/[Edublocks] : un outil basé sur https://developers.google.com/blockly/[Blockly] qui permet aux programmeurs en herbe de faire la transition de la programmation visuelle (avec de blocs) vers la programmation textuelle (en Python)
+* https://pi-top.com/[Pi Top] : un petit ordinateur ouvert basé sur une https://www.raspberrypi.org/[Raspberry Pi] permet de programmer avec Scratch et de bricoler avec des composants électroniques.
+
+Les enfants peuvent venir avec leur ordinateur portable et un goûter à base des célèbres crêpes de MiXiT leur servi
+
+=== Comment ça se passe ?
+
+Rendez-vous le vendredi 20 avril à 14h30 à l'école CPE (https://mixitconf.org/about[même endroit que MiXiT]). L'enfant peut venir avec son ordinateur portable mais s'il n'en a pas nous pourrons lui en prêté un.
+
+Le programme est le suivant
+* Une première série d'ateliers en binômes démarre.
+* Un petit gouter
+* Deuxième série d'ateliers, on fait tourner sur les activités
+
+Vers 17h, les enfants présentent leurs réalisations aux autres enfants et aux parents ébahis de tant de prouesses technologiques ;). Puis dans la foulée à 18h00, nous montrerons à l'assemblée réunie de MiXiT le résultat de notre après midi.
+
+Une question ? mailto:mixteen.lyon@gmail.com[Contactez-nous!]

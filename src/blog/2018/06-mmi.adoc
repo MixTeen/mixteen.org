@@ -1,0 +1,38 @@
+:doctitle: MMI Juin 2018
+:description: La MMI nous accueille le 24 juin 2018
+:keywords: MMI
+:author: Gérald Quintana - MixTeen
+:revdate: 2017-06-24
+:category: Web
+:teaser: 
+:imgteaser: ../../img/blog/2017/head/mixit_head.jpg
+
+
+== MMI le vendredi 24 avril 2018
+
+Les inscriptions se font exclusivement via la billeterie https://www.weezevent.com/atelier-mixteen-juin-2018[Weezevent].
+
+=== Qu'est ce qu'on fait ?
+
+Plusieurs activités seront proposées:
+
+* Pour tous : http://scratch.mit.edu/[Scratch]
+* Ateliers de découverte des principes de l'informatique : jeux pour découvrir le binaire, le codage d'images...
+* https://www.thymio.org/fr:thymio[Thymio] : un petit robot facile à programmer qui permet de comprendre les bases de la robotique, et se déplace suivant les différentes instructions des enfants.
+* http://microbit.org/[Micro:bit] : une carte élaborée sous la supervision de la BBC à destination des écoliers anglais. Elle permet l’initiation à l’électronique, l’IoT et la programmation.
+* https://www.csunplugged.org/en/[Informatique débranchée] : dans des de jeux sans ordinateur se mélangent algorithmie et mathématiques. L'enfant comprend la magie qui se cache derrière la technologie.
+* https://www.python.org/[Python] : pour les plus costauds, ce langage de programmation utilisé par les professionnels, sera utilisé pour créer dessins (tortue), des jeux, ou contrôler une micro:bit.
+
+=== Comment ça se passe ?
+
+Rendez-vous le dimanche 24 juin à 14h30 au 1er étage de la http://mmi-lyon.fr/infos-pratiques-2/infos-pratiques/[MMI (Maison des Mathématique et de l'Informatique)]. L'enfant peut venir avec son ordinateur portable mais s'il n'en a pas nous pourrons lui en prêté un.
+
+Le programme est le suivant :
+
+* Une première série d'ateliers en binômes démarre.
+* Un petit gouter
+* Deuxième série d'ateliers, on fait tourner sur les activités
+
+Vers 17h, les enfants présentent leurs réalisations aux autres enfants et aux parents ébahis de tant de prouesses technologiques ;).
+
+Une question ? mailto:mixteen.lyon@gmail.com[Contactez-nous!]
