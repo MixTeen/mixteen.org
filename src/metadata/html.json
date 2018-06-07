@@ -10,5 +10,11 @@
     "title": "MixTeen - app loading",
     "description" : "MixTeen born to code",
     "priority": -1
+  },
+  "droit-image.html" : {
+    "keywords": "Accord sur le droit à l'image",
+    "title": "MixTeen - Accord sur le droit à l'image",
+    "description" : "Accord sur le droit à l'image",
+    "priority": -1
   }
 }
