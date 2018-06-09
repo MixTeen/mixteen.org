@@ -1,14 +1,11 @@
-:doctitle: MiXiT 2018
-:description:  MixTeen propose son atelier annuel à la conférence MiXiT le 21 avril 2017
+:doctitle: Atelier MiXiT 20 avril 2018
+:description: MixTeen propose son atelier annuel lors de la conférence MiXiT le 21 avril 2017
 :keywords: MiXiT
 :author: Gérald Quintana - MixTeen
 :revdate: 2017-04-20
 :category: Web
-:teaser: 
-:imgteaser: ../../img/logo/logo_mmi_blog.png
-
-
-== MiXiT le vendredi 20 avril 2018
+:teaser: MixTeen propose son atelier annuel lors de la conférence MiXiT le 21 avril 2017
+:imgteaser: ../../img/blog/2017/head/mixit_head.jpg
 
 Les inscriptions se font exclusivement via la billeterie https://www.billetweb.fr/atelier-mixteen-avril-2018[Billet Web].
 

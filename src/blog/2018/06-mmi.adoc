@@ -1,14 +1,11 @@
-:doctitle: MMI Juin 2018
-:description: La MMI nous accueille le 24 juin 2018
+:doctitle: Atelier à la MMI 24 juin 2018
+:description: Atelier à la MMI le 24 Juin 2018
 :keywords: MMI
 :author: Gérald Quintana - MixTeen
 :revdate: 2017-06-24
 :category: Web
-:teaser: 
-:imgteaser: ../../img/blog/2017/head/mixit_head.jpg
-
-
-== MMI le vendredi 24 avril 2018
+:teaser: La MMI nous accueille le 24 juin 2018
+:imgteaser: ../../img/logo/logo_mmi_blog.png
 
 Les inscriptions se font exclusivement via la billeterie https://www.weezevent.com/atelier-mixteen-juin-2018[Weezevent].
 
