@@ -16,5 +16,11 @@
     "title": "MixTeen - Accord sur le droit à l'image",
     "description" : "Accord sur le droit à l'image",
     "priority": -1
+  },
+  "faq.html" : {
+    "keywords": "FAQ Questions",
+    "title": "MixTeen - Foire aux questions",
+    "description" : "Foire aux questions",
+    "priority": -1
   }
 }
