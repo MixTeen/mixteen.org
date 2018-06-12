@@ -11,7 +11,7 @@
     "dev": "gulp serve"
   },
   "engines": {
-    "node": ">9.0.0"
+    "node": ">8.0.0"
   },
   "dependencies": {
     "asciidoctor.js": "^1.5.6-preview.3",
