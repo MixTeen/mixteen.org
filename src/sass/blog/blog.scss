@@ -9,7 +9,7 @@ article {
 }
 
 mixteen-article {
-  @include dm_container_closest();
+  @include mn_container_closest();
 }
 
 .dm-blog--info-title{
@@ -79,7 +79,7 @@ mixteen-article {
 
 .admonitionblock {
 
-  @include dm_box__shadow;
+  @include mn_box__shadow;
   background-color: #eeeeee;
 
   .title {

@@ -5,12 +5,12 @@
   flex-direction: column;
 }
 
-.dm_head {
-  @include dm_home_row(#2c233d, white);
-  @include dm_box__shadow();
-  @include dm_home_link(#white);
+.mn_head {
+  @include mn_home_row(#2c233d, white);
+  @include mn_box__shadow();
+  @include mn_home_link(#white);
 
-  .dm_logo{
+  .mn_logo{
     text-align: center;
     img{
       width:60%;
@@ -22,7 +22,7 @@
   }
 }
 
-.dm_error{
+.mn_error{
   text-align: center;
 
   img {
@@ -33,7 +33,7 @@
     text-decoration: none;
     background-color:$color_flash;
     color: white !important;
-    @include dm_box__shadow();
+    @include mn_box__shadow();
     min-width: 64px !important;
     padding: 8px 16px;
     font-size: 14px !important;
@@ -45,12 +45,12 @@
 
 }
 
-.dm_home_blog {
-  @include dm_home_row($color_secondary, $color_primary);
+.mn_home_blog {
+  @include mn_home_row($color_secondary, $color_primary);
 
-  @include dm_home_link(#474747);
+  @include mn_home_link(#474747);
 
-  .dm_logo{
+  .mn_logo{
     text-align: center;
     img{
       width:40%;
@@ -59,19 +59,19 @@
   }
 }
 
-.dm_home_block {
-  @include dm_home_row(white, $color_primary);
+.mn_home_block {
+  @include mn_home_row(white, $color_primary);
   padding-bottom: 8em;
   @media (max-width: $max_width_mobile) {
     padding-bottom: 1em;
   }
 }
 
-.dm-social {
+.mn_social {
   &:hover{
     opacity: 0.8;
   }
 }
-.dm_picture__formation {
+.mn_picture__formation {
   max-width: 600px;
 }

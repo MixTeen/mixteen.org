@@ -8,26 +8,25 @@
 <body class="dev-mind">
 {{> _page_header}}
 <main>
-    <div class="dm_head" id="home">
+    <div class="mn_head" id="home">
         <mixteen-block>
-            <p class="dm_logo">
+            <p class="mn_logo">
                 <img src="../../img/logo/logo_mixteen_alt_baseline.svg" alt="MixTeen" title="MixTeen">
             </p>
         </mixteen-block>
     </div>
     <mixteen-block>
-        <p class="dm_lead">
-            La programmation n'est pas réservée aux informaticiens adultes et pas besoin de faire des études pendant des
-            années
-            pour comprendre comment on programme. Tu es un enfant ou un ado entre 7 ans et 15 ans, toute la team MixTeen
-            est là
-            pour te montrer qu'avec de la créativité et de la curiosité, il est possible de réaliser des programmes
-            informatiques
-            tout en s’amusant.
+        <p class="mn_lead mn_content">
+                La programmation n'est pas réservée aux informaticiens adultes et pas besoin de faire des études pendant des
+                années
+                pour comprendre comment on programme. Tu es un enfant ou un ado entre 7 ans et 15 ans, toute la team MixTeen
+                est là
+                pour te montrer qu'avec de la créativité et de la curiosité, il est possible de réaliser des programmes
+                informatiques
+                tout en s’amusant.
         </p>
-
-        <div class="dm_grid__flexible" style="text-align: center">
-            <div class="dm_grid__element_first">
+        <div class="mn_grid__flexible" style="text-align: center">
+            <div class="mn_grid__element_first">
                 <picture alt="Apprendre avec Scratch">
                     <source srcset="img/blog/2017/mixit/mixit2.webp" type="image/webp"/>
                     <source srcset="img/blog/2017/mixit/mixit2.jpg"/>
@@ -37,7 +36,7 @@
                 <p>Animer un écureuil par de la programmation par bloc est idéale pour apprendre les bases de
                     l'algorithmie</p>
             </div>
-            <div class="dm_grid__element">
+            <div class="mn_grid__element">
                 <picture alt="Apprendre avec Thimyo">
                     <source srcset="img/blog/2017/mixit/mixit6.webp" type="image/webp"/>
                     <source srcset="img/blog/2017/mixit/mixit6.jpg"/>
@@ -46,7 +45,7 @@
                 <h2>Apprendre avec Thimyo</h2>
                 <p>Thimyo est un petit robot facile à programmer qui permet de comprendre les bases de la robotique</p>
             </div>
-            <div class="dm_grid__element">
+            <div class="mn_grid__element">
                 <picture alt="Apprendre avec Micro:bit">
                     <source srcset="img/blog/2017/mixit/mixit19.webp" type="image/webp"/>
                     <source srcset="img/blog/2017/mixit/mixit19.jpg"/>
@@ -58,7 +57,7 @@
             </div>
         </div>
 
-        <p class="dm_lead">
+        <p class="mn_lead mn_content">
             Chaque année nous essayons de trouver de nouveaux ateliers pour t'intéresser.
         </p>
 
@@ -67,29 +66,29 @@
 
     </mixteen-block>
 
-    <div class="dm_home_blog">
+    <div class="mn_home_blog">
         <mixteen-block>
-            <h1>Les événements</h1>
+            <h1 class="mn_content">Les événements</h1>
 
-            <p>
+            <p class="mn_content">
                 Nous organisons plusieurs événements par an que tu peux suivre dans la partie "Blog" en cliquant
                 sur le menu correspondant en haut. Nous essayons d'écrire un article à chaque nouvel événement prévu.
             </p>
 
-            <div class="dm_grid__flexible">
+            <div class="mn_grid__flexible">
                 {{#firstArticle}}
-                    <article class="dm_grid__element dm-blog--article"
+                    <article class="mn_grid__element dm-blog--article"
                              onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
-                        <p class="dm_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
+                        <p class="mn_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
                         <div class="dm-blog--imgteaser"><img class="dm-img--lazyload" data-src="{{{imgteaser}}}"/></div>
                         <p class="dm-blog--teaser">{{teaser}}</p>
                     </article>
 
                 {{/firstArticle}}
                 {{#secondArticles}}
-                    <article class="dm_grid__element dm-blog--article"
+                    <article class="mn_grid__element dm-blog--article"
                              onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
-                        <p class="dm_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
+                        <p class="mn_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
                         <div class="dm-blog--imgteaser"><img class="dm-img--lazyload" data-src="{{{imgteaser}}}"/></div>
                         <p class="dm-blog--teaser">{{teaser}}</p>
                     </article>
@@ -98,15 +97,15 @@
         </mixteen-block>
     </div>
     <mixteen-block>
-        <h1>L'histoire de MixTeen</h1>
+        <h1 class="mn_content">L'histoire de MixTeen</h1>
 
-        <p class="dm_lead">
+        <p class="mn_lead mn_content">
             Lors de la keynote finale de de <a href="https://mixitconf.org/2012">Mix-IT 2012</a>,
             <a href="https://twitter.com/pamelafox">Pamela Fox</a> imaginait un monde où l'on apprend à coder dès notre
             plus
             jeune âge et fixe à chacun de nous un objectif : enseigner la programmation à une personne.
         </p>
-        <p>
+        <p class="mn_content">
             Lors de l'édition Mix-IT 2013, Audrey Neveu et Aline Paponaud nous ont présenté l'initiative Programatoo
             qu'elles mènent avec
             d'autres passionés.En octobre 2013, nous avons organisé une session le 5 octobre 2013, avec la participation
@@ -114,7 +113,7 @@
             Lego Mindstorms
             et l'apprentissage des bases de la robotique.
         </p>
-        <p>En 2014, on lance notre propre atelier de programmation dans le cadre de MiXiT, c'est la naissance de MixTeeN ! En 2018 MixTeen est devenu une association à part entière
+        <p class="mn_content">En 2014, on lance notre propre atelier de programmation dans le cadre de MiXiT, c'est la naissance de MixTeeN ! En 2018 MixTeen est devenu une association à part entière
         qui organise plusieurs événements en dehors de la conférence MiXiT</p>
 
         <p align="center">

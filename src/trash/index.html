@@ -1,12 +1,12 @@
-<div class="dm_head" id="home">
+<div class="mn_head" id="home">
     <mixteen-block>
-        <p class="dm_logo">
+        <p class="mn_logo">
             <img src="../../img/logo/logo_mixteen_alt_baseline.svg" alt="MixTeen" title="MixTeen">
         </p>
     </mixteen-block>
 </div>
 <mixteen-block>
-    <p class="dm_lead">
+    <p class="mn_lead">
         La programmation n'est pas réservée aux informaticiens adultes et pas besoin de faire des études pendant des années
         pour comprendre comment on programme. Tu es un enfant ou un ado entre 7 ans et 15 ans, toute la team MixTeen est là
         pour te montrer qu'avec de la créativité et de la curiosité, il est possible de réaliser des programmes informatiques
@@ -30,18 +30,18 @@
 
     <p>Nous organisons plusieurs événements par an que tu peux suivre dans la partie "Blog" en cliquant sur le menu correspondant en haut</p>
 
-    <div class="dm_grid__flexible">
+    <div class="mn_grid__flexible">
         {{#firstArticle}}
-        <article class="dm_grid__element dm-blog--article" onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
-            <p class="dm_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
+        <article class="mn_grid__element dm-blog--article" onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
+            <p class="mn_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
             <div class="dm-blog--imgteaser"><img class="dm-img--lazyload" data-src="{{{imgteaser}}}"/></div>
             <p class="dm-blog--teaser">{{teaser}}</p>
         </article>
 
         {{/firstArticle}}
         {{#secondArticles}}
-        <article class="dm_grid__element dm-blog--article" onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
-            <p class="dm_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
+        <article class="mn_grid__element dm-blog--article" onclick="document.location.href='blog/{{dir}}/{{filename}}.html'">
+            <p class="mn_lead dm-blog--head"><a href="blog/{{dir}}/{{filename}}.html">{{doctitle}}</a></p>
             <div class="dm-blog--imgteaser"><img class="dm-img--lazyload" data-src="{{{imgteaser}}}"/></div>
             <p class="dm-blog--teaser">{{teaser}}</p>
         </article>
@@ -55,7 +55,7 @@
 <mixteen-block>
     <h1>L'histoire de MixTeen</h1>
 
-    <p class="dm_lead">
+    <p class="mn_lead">
         Lors de la keynote finale de de <a href="https://mixitconf.org/2012">Mix-IT 2012</a>,
         <a href="https://twitter.com/pamelafox">Pamela Fox</a> imaginait un monde où l'on apprend à coder dès notre plus
     jeune âge et fixe à chacun de nous un objectif : enseigner la programmation à une personne.

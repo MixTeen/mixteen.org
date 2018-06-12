@@ -11,7 +11,7 @@ window.blog = (function () {
 
   function findMoreBlogpost() {
     nbElementDisplayed += 3;
-    let extensionPoint = document.getElementById('dm_extension');
+    let extensionPoint = document.getElementById('mn_extension');
 
     // We clean up the firsts elements
     while (extensionPoint.firstChild) {

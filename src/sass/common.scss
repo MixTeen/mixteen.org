@@ -22,11 +22,11 @@ $text_head_screen : 20px;
 
 $header__heigth: 64px;
 
-@mixin dm_box__shadow(){
+@mixin mn_box__shadow(){
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
-@mixin dm_home_link($linkcolor) {
+@mixin mn_home_link($linkcolor) {
   a, a:hover, a:visited  {
     font-weight: bold;
     color: $linkcolor;
@@ -34,7 +34,7 @@ $header__heigth: 64px;
   }
 }
 
-@mixin dm_container(){
+@mixin mn_container(){
   display: block;
   margin:0 auto;
   max-width: 1600px;
@@ -48,13 +48,13 @@ $header__heigth: 64px;
   }
 }
 
-@mixin dm_container_closest(){
+@mixin mn_container_closest(){
   display: block;
   margin:0 auto;
   max-width: 1600px;
 }
 
-@mixin dm_home_row($bgcolor, $txtcolor) {
+@mixin mn_home_row($bgcolor, $txtcolor) {
   display: inline-block;
   width: 100%;
   background-color: $bgcolor;
@@ -79,7 +79,7 @@ $header__heigth: 64px;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    @include dm_box__shadow;
+    @include mn_box__shadow;
 
     &:hover {
       background-color: $color_flash;

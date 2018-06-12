@@ -2,7 +2,7 @@
 :description: MixTeen propose son atelier annuel lors de la conférence MiXiT le 21 avril 2017
 :keywords: MiXiT
 :author: Gérald Quintana - MixTeen
-:revdate: 2017-04-20
+:revdate: 2018-04-20
 :category: Web
 :teaser: MixTeen propose son atelier annuel lors de la conférence MiXiT le 21 avril 2017
 :imgteaser: ../../img/blog/2017/head/mixit_head.jpg

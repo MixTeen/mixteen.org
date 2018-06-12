@@ -2,7 +2,7 @@
 :description: Atelier à la MMI le 24 Juin 2018
 :keywords: MMI
 :author: Gérald Quintana - MixTeen
-:revdate: 2017-06-24
+:revdate: 2018-06-24
 :category: Web
 :teaser: La MMI nous accueille le 24 juin 2018
 :imgteaser: ../../img/logo/logo_mmi_blog.png

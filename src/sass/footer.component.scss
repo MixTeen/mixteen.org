@@ -4,19 +4,19 @@ footer {
     background-color: $color_primary;
 }
 
-.dm_footer {
+.mn_footer {
     color: white;
     display: flex;
     font-size: 13px;
     justify-content: center;
     align-items: center;
 
-    .dm_footer__left{
+    .mn_footer__left{
         flex: 1 1 0;
         margin-left: 1em;
     }
 
-    .dm_footer__middle{
+    .mn_footer__middle{
         text-align: center;
         flex: 1 1 0;
 
@@ -30,7 +30,7 @@ footer {
         }
     }
 
-    .dm_footer__right{
+    .mn_footer__right{
         text-align: right;
         flex: 1 1 0;
         margin-right: 1em;
