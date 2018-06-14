@@ -7,14 +7,14 @@ Options -Multiviews
 Options +FollowSymLinks
 
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP:X-Forwarded-Proto} !https
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 DirectorySlash Off
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^(.+[^/])$          %{HTTP:X-Forwarded-Proto}://%{HTTP_HOST}/$1/  [R=301,L,QSA]
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} -d
+# RewriteRule ^(.+[^/])$          %{HTTP:X-Forwarded-Proto}://%{HTTP_HOST}/$1/  [R=301,L,QSA]
 
 ErrorDocument 404 https://mixteen.org/404.html
 
