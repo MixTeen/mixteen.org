@@ -138,3 +138,19 @@ h2{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+img.dm_ressource_logo {
+	max-width: 300px;
+	max-height: 200px;
+	float: right;
+	margin: 1em;
+}
+img.dm_ressource_photo {
+	max-width: 300px;
+	max-height: 200px;
+	display: block;
+	margin-left: 1em;
+}
+.dm_ressource_clear {
+	clear: right;
+}
