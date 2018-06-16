@@ -22,5 +22,11 @@
     "title": "MixTeen - Foire aux questions",
     "description" : "Foire aux questions",
     "priority": -1
+  },
+  "ressources.html" : {
+    "keywords": "Ressources Liens Pointeurs",
+    "title": "MixTeen - Ressources",
+    "description" : "Ressources",
+    "priority": -1
   }
 }
