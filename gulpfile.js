@@ -2,7 +2,6 @@
 
 const gulp = require('gulp');
 const del = require('del');
-const path = require('path');
 const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
@@ -10,6 +9,7 @@ const wbBuild = require('workbox-build');
 
 const $ = require('gulp-load-plugins')();
 
+const convertToGitbook = require('./gulp-extensions/convert-to-gitbook');
 const convertToHtml = require('./gulp-extensions/convert-to-html');
 const convertToBlogList = require('./gulp-extensions/convert-to-blog-list');
 const convertToBlogPage = require('./gulp-extensions/convert-to-blog-page');
@@ -161,6 +161,12 @@ gulp.task('blog', cb => {
     ['blog-list', 'blog-rss', 'blog-archive'],
     cb
   )
+});
+
+gulp.task('book', cb =>{
+  convertToGitbook([
+    {src: 'src/books/microbit-exercices', dist: 'build/dist/books/microbit-exercices'}
+    ], cb);
 });
 
 gulp.task('lint', () =>
@@ -350,6 +356,7 @@ gulp.task('build', cb => {
     'images-pre',
     'styles',
     'blog',
+    'book',
     'images',
     'images-post',
     'lint',
