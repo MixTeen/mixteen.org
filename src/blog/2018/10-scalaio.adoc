@@ -1,0 +1,28 @@
+:doctitle: Atelier ScalaIO le 29 Octobre 2018
+:description: Atelier à CPE Lyon, pour la ScalaIO, le 29 Octobre 2018
+:keywords: scalaio
+:author: XXX - MixTeen
+:revdate: 2018-10-10
+:category: Web
+:teaser: Découvrir
+:imgteaser: ../../img/logo/logo_scalaio_blog.png
+
+Lors de la conférence ScalaIO, pendant que les grands s'éclatent avec la programmation fonctionnelle en Scala,
+les plus jeunes peuvent aussi écrire leurs premières fonctions et découvrir les joies de la programmation.
+
+Les inscriptions se font exclusivement via la billetterie https://www.weezevent.com/atelier-mixteen-octobre-2018-scalaio[Weezevent].
+
+=== Qu'est ce qu'on fait ?
+
+Plusieurs activités seront proposées:
+
+* http://scratch.mit.edu/[Scratch]
+* http://microbit.org/[Micro:bit] : une carte élaborée sous la supervision de la BBC à destination des écoliers anglais.
+  Elle permet l’initiation à l’électronique, l’IoT et la programmation
+
+=== Comment ça se passe ?
+
+Rendez-vous le dimanche 29 Octobre de 14h00 à 17h00 dans les locaux de CPE Lyon (3 rue victor grignard, 69100 Villeurbanne) muni de son billet.
+Il est recommandé de venir avec un ordinateur portable.
+
+Une question ? mailto:mixteen.lyon@gmail.com[Contactez-nous!]
