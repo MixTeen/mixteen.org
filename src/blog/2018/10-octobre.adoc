@@ -1,0 +1,59 @@
+:doctitle: Plein d'ateliers en Octobre 2018!
+:description: PyConFr, MMI, Scala.IO, le programme de la rentrée est chargé.
+:keywords: PyConFr, MMI, ScalaIO
+:author: Equipe - MixTeen
+:revdate: 2018-10-01
+:category: Web
+:teaser: C'est une grosse rentrée pour MixTeen!
+:imgteaser: ../../img/blog/2018/octobre.png
+
+La rentrée des classes est passée, il est temps de se remettre à programmer!
+
+L'équipe MixTeen organise pour ce mois d'octobre 3 événements:
+
+* Le 6 octobre lors de la conférence PyConFr dédiée au langage Python
+* Le 14 octobre à la MMI lyon
+* Le 29 octobre lors de la conférence Scala.IO dédiée au langage Scala
+
+Ce sera aussi l'occasion de participer à la https://codeweek.eu/[Code Week], la semaine européenne du code, qui se tient du 6 au 21 octobre.
+
+
+=== Atelier lors de la PyConFr
+
+*Quand:* Samedi 6 octobre de 14h00 à 17h00
+
+*Où:* à Villeneuve d'Ascq
+
+*Inscriptions:* billetterie https://www.helloasso.com/associations/afpy/evenements/atelier-de-programmation-pour-les-enfants[Hello Asso]
+
+
+=== Atelier à la MMI lyon
+
+*Quand:* Dimanche 14 octobre de 14h30 à 17h30
+
+*Où:* 1er étage de la http://mmi-lyon.fr/infos-pratiques-2/infos-pratiques/[MMI (Maison des Mathématique et de l'Informatique)]
+
+*Inscriptions:* billetterie https://www.weezevent.com/atelier-mixteen-octobre-2018-mmi[Weezevent]
+
+
+=== Atelier lors de la Scala.IO
+
+*Quand:* Lundi 29 octobre de 14h00 à 17h00
+
+*Où:* dans les locaux de CPE Lyon, sur le campus de la Doua
+
+*Inscriptions:* billetterie https://www.weezevent.com/atelier-mixteen-octobre-2018-scalaio[Weezevent]
+
+Il est recommandé d'amener un ordinateur.
+
+
+=== Qu'est ce qu'on fait ?
+
+En fonction des animateurs présents, plusieurs activités seront proposées:
+
+* Pour tous : http://scratch.mit.edu/[Scratch]
+* Ateliers de découverte des principes de l'informatique : jeux pour découvrir le binaire, le codage d'images...
+* https://www.thymio.org/fr:thymio[Thymio] : un petit robot facile à programmer qui permet de comprendre les bases de la robotique, et se déplace suivant les différentes instructions des enfants.
+* http://microbit.org/[Micro:bit] : une carte élaborée sous la supervision de la BBC à destination des écoliers anglais. Elle permet l’initiation à l’électronique, l’IoT et la programmation.
+* https://www.csunplugged.org/en/[Informatique débranchée] : dans des de jeux sans ordinateur se mélangent algorithmie et mathématiques. L'enfant comprend la magie qui se cache derrière la technologie.
+* https://www.python.org/[Python] : pour les plus costauds, ce langage de programmation utilisé par les professionnels, sera utilisé pour créer dessins (tortue), des jeux, ou contrôler une micro:bit.
