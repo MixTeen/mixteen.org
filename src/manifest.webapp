@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "MixTeen",
   "launch_path": "/index.html",
-  "description": "MixTeen born to code : venez apprendre les bases de la programmation avec nous",
+  "description": "MixTeen born to code : venez apprendre les bases de la programmation",
   "start_url": "/index.html"
   "icons": {
     "128": "/images/touch/icon.png"
@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "name": "MixTeen",
-      "description": "MixTeen born to code : venez apprendre les bases de la programmation avec nous"
+      "description": "MixTeen born to code : venez apprendre les bases de la programmation"
     }
   }
 }
