@@ -105,16 +105,19 @@ Chaque article doit au moins avoir
 
 * une image de 1500 pixels par 764 (ou 640 x 326). Dans Gimp c'est simple d'aller changer les dimensions (`Menu Image` > `Canvas Size` ou `Menu Image` > `Resize image`
 * un titre unique (important pour les moteurs de recherche)
-* une phrase d'intro sui sera reprise dans le descriptif des articles de blogs
+* une phrase d'intro qui sera reprise dans le descriptif des articles de blogs
 * un contenu avec potentiellement d'autres images
 
-Les images des articles pour plus de clarté doivent être mises dans le répertoire `images/blog/[annee]`
+Les images des articles, pour plus de clarté, doivent être mises dans le répertoire `images/blog/[annee]`
 
 ==== Nom fichier source article
 
 Pour débuter vous pouvez copier un article existant.
 
-Il est important de ne pas avoir de caractères spéciaux dans le nom du fichier .adoc. Remplacez les espaces par des `_`
+Il est important de ne pas avoir de caractères spéciaux dans le nom du fichier .adoc. 
+
+Remplacez les espaces par des `_`
+
 Ce nom est important car la page HTML aura exactement le même nom. Soyez concis et clair
 
 ==== Rédaction
@@ -140,19 +143,20 @@ Ceci est un exemple d'article et on peut écrire en ascii doctor
 
 Le générateur du site va exploiter les premières lignes du fichier
 
-* _doctitle_ => utiliser pour la balise `<title>` dans le head de la page HTML
-* _description_ => utiliser pour la balise `<meta name="description">` dans le head de la page HTML
-* _keywords_ => utiliser pour la balise `<meta name="keywords">` dans le head de la page HTML
-* _author_ => utiliser sur le détail d'un article
+* _doctitle_ => utilisé pour la balise `<title>` dans le head de la page HTML
+* _description_ => utilisé pour la balise `<meta name="description">` dans le head de la page HTML
+* _keywords_ => utilisé pour la balise `<meta name="keywords">` dans le head de la page HTML
+* _author_ => utilisé sur le détail d'un article
 * _revdate_ => au format anglais 2017-07-05, cette date est utilisée pour trier les articles
 * _category_ => donne des infos sur le détail d'un article
 * _teaser_ => c'est le texte que l'on retrouve pour résumer l'article
-* _imgteaser_ => un lien relatif vers l'image utilsiée. Par exemple ../../img/blog/2017/rmll_00.png
+* _imgteaser_ => un lien relatif vers l'image utilisée. Par exemple ../../img/blog/2017/rmll_00.png
 
 
 === Level 2 : page HTML
 
-Pour ajouter une page statique au site c'est possible de le faire en ajoutant un fichier dans le répertoire HTML. Vous ne vous souciez que du contenu. Tout le reste est autmatiquement ajouté lors de la génération du site
+Pour ajouter une page statique au site, il est possible de le faire en ajoutant un fichier dans le répertoire HTML. 
+Vous ne vous souciez que du contenu. Tout le reste est automatiquement ajouté lors de la génération du site
 
 Par contre comme nous avons besoin de générer un titre, une description... A chaque fos que vous ajoutez une page dans ce répertoire vous devez mettre à jour le fichier `src/metadata/html.json`.
 
@@ -173,18 +177,19 @@ Par exemple
 
 La clé est le nom du fichier html. On trouve les propriétés suivantes
 
-* _title_ => utiliser pour la balise `<title>` dans le head de la page HTML
-* _description_ => utiliser pour la balise `<meta name="description">` dans le head de la page HTML
-* _keywords_ => utiliser pour la balise `<meta name="keywords">` dans le head de la page HTML
-* _priority_ => utiliser dans le fichier sitemap.xml pour la pertinence
+* _title_ => utilisé pour la balise `<title>` dans le head de la page HTML
+* _description_ => utilisé pour la balise `<meta name="description">` dans le head de la page HTML
+* _keywords_ => utilisé pour la balise `<meta name="keywords">` dans le head de la page HTML
+* _priority_ => utilisé dans le fichier sitemap.xml pour la pertinence
 
 Si cette page doit être ajoutée au menu, tu peux modifier le fichier `src/template/_page_header.mustache`.
 
-Si tu oublies de référencer la page dans le fichier metadata tu auras une erreur à l'installation du site
+Si tu oublies de référencer la page dans le fichier metadata, tu auras une erreur à l'installation du site
 
 === Level 3 : template Mustache
 
-Mustache est utilisé pour éviter de faire de la duplication de code entre les pages. Normalement le seul template que l'on a vraiment besoind e changer est le template `index.mustache` qui contient le contenu de la home. C'est un template et pas une page HTML car on insère à l'intérieur les deux derniers articles de blog.
+Mustache est utilisé pour éviter de faire de la duplication de code entre les pages. 
+Normalement le seul template que l'on a vraiment besoind e changer est le template `index.mustache` qui contient le contenu de la home. C'est un template et pas une page HTML car on insère à l'intérieur les deux derniers articles de blog.
 
 Les sous templates sont
 
