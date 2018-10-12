@@ -4,6 +4,8 @@
 # TEAM
 
   EHRET Guillaume -- Developer -- https://twitter.com/guillaumeehret
+  QUINTANA Gérald -- Developer
+  CHANTIR Thierry -- Developer
 
 # TECHNOLOGY COLOPHON
 
