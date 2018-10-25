@@ -1,0 +1,95 @@
+:doctitle: Voyage au pays des pythonistas
+:description: PyConFr, organiser un atelier loin de Lyon
+:keywords: PyConFr, Blaise, openmind
+:author: Thierry Chantier - MixTeen
+:revdate: 2018-10-12
+:category: Web
+:teaser: Voyage au pays des pythonistas
+:imgteaser: ../../img/blog/2018/pyconfr/pyconfr2018.svg
+
+Samedi 6 octobre, 4h30 du matin, Blaise me regarde assis sur la malle aux trésors de MixTeen.
+
+[link=https://photos.app.goo.gl/CKZc4ZcxYQNgxkGs6]
+image::/img/blog/2018/pyconfr/Blaise_sur_la_malle.jpg[Blaise et la malle au trésor,297,397]
+
+
+Qu'est ce qui a bien pu nous réveiller à une heure pareille un samedi ?
+
+Figurez vous que les gens de la conférence link:https://www.pycon.fr/2018/[PyconFR] nous ont invités pour venir animer un atelier. +
+Comme ça se passe à Lille, il faut prendre un train suffisamment tôt.
+
+Nous voilà partis, on teste l'équilibre de la malle en route : ce n'est pas l'idéal mais j'avance :)
+
+[link=https://photos.app.goo.gl/dWbWzApNhZxBEg1Y8]
+image::/img/blog/2018/pyconfr/malle_sur_quai.jpg[malle sur quai métro,297,397]
+
+Pour rassurer Ludo qui nous accompagne, quelques petits SMS en route. +
+J'ai bien fait, parce que finalement : 
+
+"Je viens de me réveiller en sursaut j'arrive !!!"
+
+C'est sûr qu'à 5h30 du matin, ça fait du bon réveil :) +
+Mais on finit par le prendre ce TGV.
+
+[link=https://photos.app.goo.gl/9m2ZGRd1aKMVDCWJ7]
+image::/img/blog/2018/pyconfr/Blaise_TGV.jpg[Blaise en TGV,297,397]
+
+On essaie de prendre un peu de repos et nous voilà l'IMT Lille Douai. +
+Café, gaufres, les pythonistes savent recevoir ! +
+Blaise découvre qu'un amphi lui est dédié (enfin presque ;) )
+
+[link=https://photos.app.goo.gl/bPJSJJYU1zZLYSqU9]
+image::/img/blog/2018/pyconfr/Blaise_amphi.jpg[Blaise devant amphi,297,397]
+
+On papote, on prend nos repères et on pose la malle dans la salle qui nous servira l'après midi. +
+Le temps file, l'heure de l'atelier approche à grand pas. Mais avant, on prend un petit sandwich.
+
+[link=https://photos.app.goo.gl/YtHQ3Ghq7s4y7kgP7]
+image::/img/blog/2018/pyconfr/Blaise_sandwich.jpg[Blaise et sandwich,297,397]
+
+Enfin, voici l'heure de l'atelier. +
+Les parents semblent un peu perdus. En fait, il semblerait que cette fois ci nous ayons touché un public plus divers, seulement 2 parents sont des développeurs. +
+Je sens que ça va me plaire !
+
+Du coup, on se lance. +
+Les parents sont plus présents qu'à notre habitude, mais aussi plus curieux. C'est très agréable.
+
+[link=https://photos.app.goo.gl/oABeFpn9jQZKNULE7]
+image::/img/blog/2018/pyconfr/debut_atelier.jpg[Début atelier,297,397]
+[link=https://photos.app.goo.gl/yWaANBAMYHtdSgAv7]
+image::/img/blog/2018/pyconfr/debut_atelier_scratch.jpg[Début atelier scratch,297,397]
+
+Certains n'écoutent qu'une partie des explications mais tordent le cou aux consignes pour faire leur propre sauce :)
+
+[link=https://photos.app.goo.gl/LvARbHTvbqCw8vmi9]
+image::/img/blog/2018/pyconfr/python_malin.jpg[Python malin,297,397]
+
+D'autres poussent des pythonistes reconnues dans les retranchements de la réflexion Scratch ! :)
+
+[link=https://photos.app.goo.gl/95AZyzAmSRV5k4Mt9]
+image::/img/blog/2018/pyconfr/reflexion_scratch.jpg[Réflexion Scratch,297,397]
+
+Quand on ne peut pas utiliser link:https://codewith.mu/[l'éditeur Mu], on contourne avec l'éditeur Python en ligne pour Micro:bit.
+
+[link=https://photos.app.goo.gl/fQMf94hG38rCU6bB8]
+image::/img/blog/2018/pyconfr/microbit.jpg[micro:bit ,297,397]
+
+Pour finir en beauté, on vient dire bonjour à l'amphi de la conférence entière. +
+C'est toujours un peu flippant, on aimerait n'oublier personne et motiver les gens à se lancer.
+
+[link=https://photos.app.goo.gl/aWF98gxAWAZfzxUV7]
+image::/img/blog/2018/pyconfr/amphi.jpg[amphi ,297,397]
+
+Mais ce qui est le plus beau pour moi à chaque fois, c'est quand il devient naturel qu'une codeuse en herbe soit complètement à l'aise entourée de dizaines de ces pairs <3
+
+[link=https://photos.app.goo.gl/NZNEPMa7TCFm55sf9] 
+image::/img/blog/2018/pyconfr/amphi2.jpg[Amphi complet ,297,397]
+[link=https://photos.app.goo.gl/nJL7nGDEcpzufPFx5] 
+image::/img/blog/2018/pyconfr/tranquille.jpg[Tranquille ,297,397] 
+
+Ce furent de superbes moments partagés et de belles rencontres tout le week end. +
+Je profite de ce petit article pour remercier chaleureusement toute la team de la Pycon FR qui nous a permit de vivre cette conférence. +
+Il ne me reste plus qu'à coder pour de bon en Python et attendre 2019 et sa track Education ? ;)
+
+
+PS: et pour tous ceux avec qui je n'ai pas pu parler ou donner suffisamment de détails,  mailto:mixteen.lyon@gmail.com[l'email de MixTeen] est grand ouvert !
