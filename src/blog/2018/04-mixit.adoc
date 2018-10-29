@@ -9,7 +9,7 @@
 
 Les inscriptions se font exclusivement via la billeterie https://www.billetweb.fr/atelier-mixteen-avril-2018[Billet Web].
 
-=== Qu'est ce qu'on fait ?
+== Qu'est ce qu'on fait ?
 
 Plusieurs activités seront proposées:
 
@@ -22,7 +22,7 @@ Plusieurs activités seront proposées:
 
 Les enfants peuvent venir avec leur ordinateur portable et un goûter à base des célèbres crêpes de MiXiT leur servi
 
-=== Comment ça se passe ?
+== Comment ça se passe ?
 
 Rendez-vous le vendredi 20 avril à 14h30 à l'école CPE (https://mixitconf.org/about[même endroit que MiXiT]). L'enfant peut venir avec son ordinateur portable mais s'il n'en a pas nous pourrons lui en prêté un.
 

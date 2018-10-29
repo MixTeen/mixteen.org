@@ -52,7 +52,7 @@ Pour lire la luminosité détectée par la photo résistance, utiliser le bloc L
 
 Lorsque le bouton B est pressé, afficher le nombre lu en analogique sur la broche P0.
 
-[INFO]
+[NOTE]
 La valeur retournée par le bloc Lire broche en analogique est une valeur comprise entre 0 et 1023.
 
 Exposer le composant à une lumière vive (soleil, lampe), ou bien le mettre dans l'obscurité en le cachant sous quelque chose d'opaque, et observer les valeurs lues.
