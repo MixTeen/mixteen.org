@@ -13,14 +13,14 @@ si son code source est librement accessible,
 si on peut le modifier, l'améliorer, 
 si son utilisation est libre.
 
-=== Qu'est ce qu'on fait ?
+== Qu'est ce qu'on fait ?
 
 Des ateliers mettant en oeuvre des logiciels libres seront proposés aux enfants / adolescents:
 
 * Initiation à la programmation avec http://scratch.mit.edu/[Scratch]
 * Construire son propre ordinateur avec https://www.raspberrypi.org/[Raspberry Pi]
 
-=== Comment ca se passe ?
+== Comment ca se passe ?
 
 Inscriptions sur Framadate https://framaforms.org/inscription-a-latelier-initiation-aux-ordinateurs-et-au-code-du-5-juillet-pendant-les-rmll
 

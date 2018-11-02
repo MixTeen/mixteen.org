@@ -22,9 +22,9 @@ Ce projet est Open Source et toutes les personnes motivées sont les bienvenues 
 
 D'un point de vue technique tu as besoin pour lancer le site en local
 
-* D'une version de https://nodejs.org/en/[Node JS] > 7.0 (idéalement > 9). Tu peux aller sur le site pour installer Node sur ta machine. Le site ne fonctionne pas directement avec Node mais nous utilisons l'écosystème JavaScript pour le générer.
+* D'une version de https://nodejs.org/en/[Node JS] > 10.0. Tu peux aller sur le site pour installer Node sur ta machine. Le site ne fonctionne pas directement avec Node mais nous utilisons l'écosystème JavaScript pour le générer.
 * Lors de l'installation nous allons télécharger des dépendances Node et pour celà nous utilisons le gestionnaire de paquets https://yarnpkg.com/en/[Yarn]. Si `yarn` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g yarn` (npm est automatiquement installé en même temps que Node)
-* Le cycle de vie de l'application est lui géré par l'application http://gulpjs.com/[Gulp]. Si `gulp` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g gulp`
+* Le cycle de vie de l'application est lui géré par l'application http://gulpjs.com/[Gulp]. Si `gulp` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g gulp-cli`
 * Le site utilise FireBase pour la gestion des commentaires. Notre compte est https://mixteen-d85dc.firebaseio.com. Pour commencer à développer tu n'as rien besoin de paramétrer sur ton poste
 
 === Installer le site en local
@@ -43,6 +43,7 @@ yarn install
 [source, shell, subs="none"]
 ----
 gulp serve
+node app.js
 ----
 
 Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
@@ -54,7 +55,7 @@ Cette commande Gulp effectue différentes tâches que tu peux lancer individuell
 * _images_ : génère les images au format webp qui est un format optimisé pour Chrome
 * _images-post_ : copie les images dans le répertoire de sortie
 * _lint_ : analyse le code pour détecter les problèmes
-* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template mustache pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
 * _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
 * _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
 * _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
@@ -78,7 +79,7 @@ Cette commande Gulp effectue différentes tâches que tu peux lancer individuell
 * _images_ : génère les images au format webp qui est un format optimisé pour Chrome
 * _images-post_ : copie les images dans le répertoire de sortie
 * _lint_ : analyse le code pour détecter les problèmes
-* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template mustache pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
 * _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
 * _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
 * _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
@@ -182,27 +183,27 @@ La clé est le nom du fichier html. On trouve les propriétés suivantes
 * _keywords_ => utilisé pour la balise `<meta name="keywords">` dans le head de la page HTML
 * _priority_ => utilisé dans le fichier sitemap.xml pour la pertinence
 
-Si cette page doit être ajoutée au menu, tu peux modifier le fichier `src/template/_page_header.mustache`.
+Si cette page doit être ajoutée au menu, tu peux modifier le fichier `src/template/_page_header.handlebars`.
 
 Si tu oublies de référencer la page dans le fichier metadata, tu auras une erreur à l'installation du site
 
-=== Level 3 : template Mustache
+=== Level 3 : template Handlebars
 
-Mustache est utilisé pour éviter de faire de la duplication de code entre les pages. 
-Normalement le seul template que l'on a vraiment besoind e changer est le template `index.mustache` qui contient le contenu de la home. C'est un template et pas une page HTML car on insère à l'intérieur les deux derniers articles de blog.
+Handlebars est utilisé pour éviter de faire de la duplication de code entre les pages.
+Normalement le seul template que l'on a vraiment besoind e changer est le template `index.handlebars` qui contient le contenu de la home. C'est un template et pas une page HTML car on insère à l'intérieur les deux derniers articles de blog.
 
 Les sous templates sont
 
-* __html_footer.mustache_ : pied HTML (fichiers JavaScript)
-* __html_header.mustache_ : entête HTML (metadata, fichier CSS...)
-* __page_footer.mustache_ : pied de page (lien, copyright)
-* __page_header.mustache_ : menu
+* __html_footer.handlebars_ : pied HTML (fichiers JavaScript)
+* __html_header.handlebars_ : entête HTML (metadata, fichier CSS...)
+* __page_footer.handlebars_ : pied de page (lien, copyright)
+* __page_header.handlebars_ : menu
 
 Les autres templates sont
 
-* _blog.mustache_ : le template utilisé pour le détail d'un article de blog
-* _blog_archive.mustache_ : archive avec tous les blogs depuis le début
-* _blog_list.mustache_ : la page blog avec les 20 derniers articles
-* _index.mustache_ : la page index avec les 2 derniers articles
-* _site.mustache_ : la page site qui est utilisé pour générer les pages qui sont dans le réertoire HTML
+* _blog.handlebars_ : le template utilisé pour le détail d'un article de blog
+* _blog_archive.handlebars_ : archive avec tous les blogs depuis le début
+* _blog_list.handlebars_ : la page blog avec les 20 derniers articles
+* _index.handlebars_ : la page index avec les 2 derniers articles
+* _site.handlebars_ : la page site qui est utilisé pour générer les pages qui sont dans le réertoire HTML
 

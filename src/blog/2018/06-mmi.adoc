@@ -9,7 +9,7 @@
 
 Les inscriptions se font exclusivement via la billeterie https://www.weezevent.com/atelier-mixteen-juin-2018[Weezevent].
 
-=== Qu'est ce qu'on fait ?
+== Qu'est ce qu'on fait ?
 
 Plusieurs activités seront proposées:
 
@@ -20,7 +20,7 @@ Plusieurs activités seront proposées:
 * https://www.csunplugged.org/en/[Informatique débranchée] : dans des de jeux sans ordinateur se mélangent algorithmie et mathématiques. L'enfant comprend la magie qui se cache derrière la technologie.
 * https://www.python.org/[Python] : pour les plus costauds, ce langage de programmation utilisé par les professionnels, sera utilisé pour créer dessins (tortue), des jeux, ou contrôler une micro:bit.
 
-=== Comment ça se passe ?
+== Comment ça se passe ?
 
 Rendez-vous le dimanche 24 juin à 14h30 au 1er étage de la http://mmi-lyon.fr/infos-pratiques-2/infos-pratiques/[MMI (Maison des Mathématique et de l'Informatique)]. L'enfant peut venir avec son ordinateur portable mais s'il n'en a pas nous pourrons lui en prêté un.
 

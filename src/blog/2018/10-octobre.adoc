@@ -18,7 +18,7 @@ L'équipe MixTeen organise pour ce mois d'octobre 3 événements:
 Ce sera aussi l'occasion de participer à la https://codeweek.eu/[Code Week], la semaine européenne du code, qui se tient du 6 au 21 octobre.
 
 
-=== Atelier lors de la PyConFr
+== Atelier lors de la PyConFr
 
 *Quand:* Samedi 6 octobre de 14h00 à 17h00
 
@@ -27,7 +27,7 @@ Ce sera aussi l'occasion de participer à la https://codeweek.eu/[Code Week], la
 *Inscriptions:* billetterie https://www.helloasso.com/associations/afpy/evenements/atelier-de-programmation-pour-les-enfants[Hello Asso]
 
 
-=== Atelier à la MMI lyon
+== Atelier à la MMI lyon
 
 *Quand:* Dimanche 14 octobre de 14h30 à 17h30
 
@@ -36,7 +36,7 @@ Ce sera aussi l'occasion de participer à la https://codeweek.eu/[Code Week], la
 *Inscriptions:* billetterie https://www.weezevent.com/atelier-mixteen-octobre-2018-mmi[Weezevent]
 
 
-=== Atelier lors de la Scala.IO
+== Atelier lors de la Scala.IO
 
 *Quand:* Lundi 29 octobre de 14h00 à 17h00
 
@@ -47,7 +47,7 @@ Ce sera aussi l'occasion de participer à la https://codeweek.eu/[Code Week], la
 Il est recommandé d'amener un ordinateur.
 
 
-=== Qu'est ce qu'on fait ?
+== Qu'est ce qu'on fait ?
 
 En fonction des animateurs présents, plusieurs activités seront proposées:
 
