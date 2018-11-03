@@ -1,5 +1,6 @@
 const md5 = require('md5');
 const isProd = process.env.NODE_ENV && process.env.NODE_ENV === 'prod';
+const isStaging = process.env.NODE_ENV && process.env.NODE_ENV === 'staging';
 
 /**
  * used to initailize session
@@ -13,7 +14,7 @@ exports.sessionAttributes = (secret) => ({
   saveUninitialized: true,
   // Secured cookies are only set in production
   cookie: {
-    secure: isProd,
+    secure: isProd || isStaging,
     maxAge: 60 * 60 * 1000,
     sameSite: true
   },
@@ -53,20 +54,14 @@ exports.securityPolicy = () => ({
 
 exports.rewrite = () => {
   return (req, res, next) => {
-    if(isProd){
+    if(isProd || isStaging){
       const httpInForwardedProto = req.headers && req.headers['x-forwarded-proto'] && req.headers['x-forwarded-proto'] === 'http';
       const httpInReferer = req.headers && req.headers.referer && req.headers.referer.indexOf('http://') >=0;
-      const hostWwwInHeader = req.headers && req.headers.host && req.headers.host.indexOf('www') >=0;
       const isHtmlPage = req.url.indexOf(".html") >= 0;
 
       if((isHtmlPage || req.url === '/')  && (httpInForwardedProto || httpInReferer)){
         console.log('User is not in HTTP, he is redirected');
-        res.redirect('https://mixteen.org/' + req.url);
-      }
-      //Redirection on domain without www don't work. So this feature is disabled
-      else if((isHtmlPage || req.url === '/')  && hostWwwInHeader){
-        console.log('User is not on www, he is redirected');
-        res.status(301).redirect('https://mixteen.org/index.html');
+        res.redirect((isProd ? 'https://mixteen.org/' : 'https://mixteen-staging.cleverapps.io')+ req.url);
       }
       else{
         next();
