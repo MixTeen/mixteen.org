@@ -1,0 +1,59 @@
+:doctitle: Quoi de neuf en 2019 ?
+:description: Les dates à venir
+:keywords: news, dates
+:author: Thierry Chantier - MixTeen
+:revdate: 2019-04-05
+:category: Web
+:teaser: Que nous réserve 2019 ?
+:imgteaser: ../../img/blog/2019/boule_crystal.jpg
+
+Bonjour à tous !
+
+Ne croyez pas que nous soyons endormis, tout au plus un hivernage un peu long :)
+
+Les ateliers en rencontres vont redémarrer de plus belle.
+
+Pour commencer, nous serons présents lors de Lyon Sciences 2019, le dimanche 14 avril.
+
+[link=https://www.lyon-science.fr/lyon-science-2019-mythes-et-legendes-et-la-science/]
+image::/img/blog/2019/lyonsciences2019.jpg[Lyon Sciences le 14 avril 2019,297,397, align="left"]
+
+Venez profiter du programme de conférences et des tables rondes tout en passant nous voir, nous serons ravi.e.s
+L'entrée est libre et gratuite, venez nombreux !
+ +
+ +
+ +
+La date suivante sera le 27 avril lors Global Azur Bootcamp.
+
+[link=https://www.meetup.com/fr-FR/MUGLyon/events/257847046/]
+image::/img/blog/2019/globalAzur.jpg[Global Azur Bootcamp le 27 avril 2019,297,397, align="left"]
+
+https://tinyurl.com/y5x7x4s5[Inscrivez vous à cet atelier], les places sont comptées
+ +
+ +
+ +
+Il sera ensuite question de la Japan Touch/ Geek Touch
+
+[link=https://geektouch-festival.com/2019/decouvrez-animations-de-ledition-geektouch-2019/animation-emc%c2%b2/]
+image::/img/blog/2019/geektouch2019.jpg[Geektouch 5 mai 2019,297,397, align="left"]
+
+Nous serons présent le dimanche 5 mai et nous sommes en train d'essayer de venir également le samedi 4 mai après midi.
+Passez coder ou juste nous faire un hug, il y aura un petit effort de cosplay cette année ;)
+ +
+ +
+ +
+Le rendez vous suivant sera lors de MiXiT.
+
+[link=https://mixitconf.org/fr/]
+image::/img/blog/2019/mxt-logo.png[MiXiT 25 mai 2019,297,397, align="left"]
+
+Cette année, changement de lieu et direction la Manufacture des Tabacs.
+La conférence aura lieu les 23 et 24 mai, et ce n'est pas une semaine de vacances scolaires.
+Nous aurons donc notre atelier le samedi 25 mai 2019 mais nous vous communiquerons l'accès à la billeterie dès que possible.
+ +
+ +
+ +
+
+Voilà, nous espérons avoir le plaisir de vous croiser très bientôt, à toutes ces dates dans l'idéal :)
+
+En attendant, pensez à vous inscrire à motre https://groups.google.com/forum/#!forum/liste-mixteen[mailing list] où nous annonçons nos ateliers et n'hésitez jamais à nous mailto:team@mixteen.org[contacter par email.]
