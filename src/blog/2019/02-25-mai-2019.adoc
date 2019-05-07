@@ -1,0 +1,52 @@
+:doctitle: Avec MiXiT, 2 évènements à venir le 25 mai !
+:description: Un atelier pour les enseignants et un atelier pour les enfants.
+:keywords: news, dates
+:author: Angélique Henry - MixTeen
+:revdate: 2019-05-08
+:category: Web
+:teaser: Avec MiXiT,2 évènements à venir le 25 mai !
+:imgteaser: ../../img/blog/2019/25mai/back_to_school.jpg
+
+Comme chaque année, un atelier MixTeen accompagne https://mixitconf.org/[les conférences MiXiT]. Comme chaque année ou presque.... les conférences se déroulant hors vacances scolaires cette année, MixTeen s'est adapté et se déplace cette année le samedi. Le lieu est nouveau pour MixTeen: la Manufacture des tabacs.
+
+== Le matin: Atelier et table ronde pour les personnes de l'enseignement curieuses
+
+Si vous êtes enseignant.e.s, et vous avez des questions sur la façon d'aborder les sciences numériques avec vos élèves ou si vous cherchez simplement un peu d'aide, MixTeen sera ravie de vous accueillir le samedi 25 mai matin de 9h00 à 12h30.
+
+Les membres de l'association se feront un plaisir de partager leur passion du code, les retours des ateliers avec les enfants, des supports, des idées, et du fun !
+
+L'entrée est gratuite, mais pour des raisons d'organisation, les places sont limités. Vous pouvez les prendre dès à présent, la billeterie est ouverte sur https://www.helloasso.com/associations/mixteen/evenements/enseignant-e-s-et-mixteen.
+
+== L'aprem: Atelier pour les enfants, avec des robots et du coeur !
+
+image::/img/blog/2019/25mai/born-to-code.png[Born to code,297,397, align="left"]
+
+Enfants et parents, venez découvrir de 13h30 à 16h00 Scratch, PiTop, Thymio, du code "unplugged", et plein d'autres joyeuses façon d'apprendre le code !
+
+L'âge idéal pour les enfants est de 7 à 15 ans, pour les parents tous les ages sont bons ! Pour vous inscrire il faut prendre un billet d'entrée pour votre enfant, vous pourrez ensuite au choix nous laisser votre enfant ou rester avec lui pour participer aux ateliers. Si vous êtes l'heureux parent de plusieurs enfants, vous devez prendre un ticket d'entré pour chaque enfant souhaitant participer aux atelier.
+
+La billeterie devrait ouvrir d'ici peu.
+
+Amenez un PC si possible :-), nous ferons passer sur place des clef usb avec les applications à installer.
+
+== Ca se passe où dans Lyon ?
+
+Pour ceux qui ont assité aux conférences MiXiT juste avant, c'est presque le même lieu que MiXiT, mais pas par le même côté.
+
+Manufacture des tabacs, l'entrée est au **Poste de sécurité**,1A Avenue des Frères Lumière.
+
+Vous serez accompagnés dans les locaux par les bénévoles de MixTeen reconnaissables à leurs tee-shirts violets, jusqu'aux salles au 3ème étage.
+
+image::/img/blog/2019/25mai/map_manufacture.jpg[Carte manufacture des tabacs]
+
+image::/img/blog/2019/25mai/poste_de_secu.jpg[Photo poste de sécurité]
+
+== Merci aux sponsors qui soutiennent MixTeen !
+
+image::/img/blog/2019/25mai/logo-esker.png[Sponsor esker,200]
+image::/img/blog/2019/25mai/logo-keyrus.png[Sponsor Keyrus,200]
+image::/img/blog/2019/25mai/logo-redhat3.png[Sponsor Redhat,200]
+
+Vous pouvez aussi les retrouver la description et les sites de sponsors dans la partie MixTeen de https://mixitconf.org/sponsors
+
+_crédit images: https://pixabay.com[https://pixabay.com]_
