@@ -28,5 +28,11 @@
     "title": "MixTeen - Ressources",
     "description" : "Ressources",
     "priority": -1
+  },
+  "event.html": {
+    "keywords": "Event",
+    "title": "MixTeen - Event 25/05/2019",
+    "description" : "Redirection vers l'évènement du 25/05/2019",
+    "priority": -1
   }
 }
