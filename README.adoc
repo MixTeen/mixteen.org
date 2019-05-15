@@ -2,9 +2,22 @@ image::src/images/logo/logo_mixteen_baseline.png[MixTeen]
 
 == Le site web de MixTeen
 
-Ce projet permet de gérer le site web de MixTeen. Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
+Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen]. Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
 
 == D'un point de vue technique
+
+=== La version courte
+
+* Node > 10
+
+[source,shell]
+---
+npm install -g yarn
+npm install -g gulp-cli
+yarn install
+gulp serve
+node app.js
+---
 
 === Compatibilité navigateur
 
