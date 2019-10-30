@@ -136,7 +136,7 @@ gulp.task('blog', gulp.series('blog-indexing',
                               'blog-index'));
 
 gulp.task('book', cb =>
-  convertToGitbook([ {src: 'src/books/microbit-exercices', dist: 'build/dist/books/microbit-exercices'} ], cb)
+  convertToGitbook([ {src: 'src/books/microbit-exercices', dist: 'build/dist/books/microbit/exercices'} ], cb)
 );
 
 gulp.task('lint', () =>
