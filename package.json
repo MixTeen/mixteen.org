@@ -12,7 +12,7 @@
     "dev": "gulp serve"
   },
   "engines": {
-    "node": ">12.0.0"
+    "node": "^14.0.0"
   },
   "dependencies": {
     "@babel/core": "^7.1.0",
