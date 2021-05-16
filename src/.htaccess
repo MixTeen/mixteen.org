@@ -64,7 +64,7 @@ FileETag None
     #X-Frame-Options is an HTTP header that allows sites control over how your site may be framed
     #within an iframe. Clickjacking is a practical attack that allows malicious sites to trick users
     #into clicking links on your site even though they may appear to not be on your site at all.
-    Header set X-Frame-Options DENY
+    #Header set X-Frame-Options DENY
 
     #X-XSS-Protection is a feature of Internet Explorer and Chrome that stops pages from loading when
     #they detect reflected cross-site scripting (XSS) attacks.
