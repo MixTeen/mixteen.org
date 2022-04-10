@@ -1,0 +1,41 @@
+:doctitle: Un atelier pour les enfants dans le cadre de MixIT.
+:description: Après 2 ans de repos, MixTeen est de retour à la Manufacture des Tabacs le 25 mai !
+:keywords: news, dates
+:author: Gérald Quintana - MixTeen
+:revdate: 2022-05-01
+:category: Web
+:teaser: Un ateliet pendant MiXiT,2 !
+:imgteaser: ../../img/blog/2022/05/mixit.png
+
+Après 2 ans de repos, nous sommes en super forme! Nous espérons que vous, les enfants et adolescents, l'êtes tout autant!
+
+Nous organisons un atelier MixTeen dans le cadre de la conférence https://mixitconf.org/[les conférences MiXiT]. 
+Il sera déroulera dans la Manufacture des Tabacs, le Mercredi 25 après-midi.
+
+
+== De la programmation, des robots, des crêpes et du coeur !
+
+image::/img/blog/2019/25mai/born-to-code.png[Born to code,297,397, align="left"]
+
+Enfants (et adultes), venez découvrir Scratch, Micro:Bit, Thymio, du code "unplugged", et plein d'autres joyeuses façon d'apprendre le code !
+L'âge idéal pour les enfants est de 7 à 15 ans ! 
+
+Pour vous inscrire il faut prendre un billet d'entrée pour votre enfant, vous pourrez ensuite au choix nous laisser votre enfant ou rester avec lui pour participer aux ateliers. Si vous êtes l'heureux parent de plusieurs enfants, vous devez prendre un ticket d'entrée pour chaque enfant souhaitant participer aux atelier.
+
+// TODO
+**Pour prendre un billet**, rendez-vous sur https://www.billetweb.fr/atelier-mixteen-2022. 
+
+Nous accueillerons les enfants à partir de 14h, au 6 rue Professeur Rollet, niveau de la porte Nord, pour un démarrage vers 14h30.
+
+Pour que tout le monde puisse participer, si vous disposez d'un ordinateur portable, amenez-le.
+Si nécessaire, les outils utilisés pour programmer seront installés .
+
+L'après-midi se terminera vers 18h avec une passage dans l'amphithéâtre de clôture de MiXiT.
+
+
+== Merci aux sponsors qui soutiennent MixTeen !
+
+image::/img/blog/2019/25mai/logo-esker.png[Sponsor esker,200]
+
+Vous pouvez aussi les retrouver la description et les sites de sponsors dans la partie MixTeen de https://mixitconf.org/sponsors
+
