@@ -1,0 +1,12 @@
+tasks:
+  - name: setup tools
+    command: |
+      nvm install Erbium
+      nvm use 12
+      npm install -g yarn
+      npm install -g gulp
+      yarn install
+
+
+
+
