@@ -1,3 +1,4 @@
+[#fiche01]
 = Fiche 1: Un coeur qui bat
 
 Niveau: Très facile

@@ -1,3 +1,4 @@
+[#fiche09]
 = Fiche 9: Feu tricolore
 
 == Blocs
@@ -34,7 +35,7 @@ WARNING: La diode doit impérativement être protégée par une résistance d'au
 
 === Montage
 
-image:montage-1.svg[Montage]
+image::09_feu_tricolore/montage-1.svg[Montage]
 
 === Programme
 
@@ -53,7 +54,7 @@ Répéter le montage du paragraphe précédent 3 fois:
 * P1 gère la LED jaune/orange
 * P2 gère la LED verte
 
-image:montage-2.svg[Montage Tricolore]
+image::09_feu_tricolore/montage-2.svg[Montage Tricolore]
 
 === Programme
 
