@@ -1,10 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - name: setup tools
+  - name: install dependancies
     command: |
-      nvm install Erbium
-      nvm use 12
-      npm install -g yarn
-      npm install -g gulp
       yarn install
 
 
