@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name: install dependancies
+    command: |
+      yarn install
+
+
+
+
