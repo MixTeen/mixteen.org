@@ -15,8 +15,7 @@ Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen]. Commme 
 npm install -g yarn
 npm install -g gulp-cli
 yarn install
-gulp serve
-node app.ts
+yarn start
 ---
 
 === Compatibilité navigateur
@@ -55,8 +54,7 @@ yarn install
 
 [source, shell, subs="none"]
 ----
-gulp serve
-node app.ts
+yarn start
 ----
 
 Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
