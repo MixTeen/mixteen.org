@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "install": "gulp",
-    "start": "tsc; node ./build/app.js",
+    "start": "tsc; gulp; node ./build/app.js",
     "dev": "ts-node-dev --respawn --transpileOnly ./app.ts"
   },
   "engines": {
