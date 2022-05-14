@@ -7,8 +7,8 @@
   "author": "Guillaume EHRET <guillaume@dev-mind.fr>",
   "license": "MIT",
   "scripts": {
-    "install": "gulp",
-    "start": "tsc; node ./build/app.js",
+    "install": "gulp; tsc;",
+    "start": "node ./build/app.js",
     "dev": "ts-node-dev --respawn --transpileOnly ./app.ts"
   },
   "engines": {
