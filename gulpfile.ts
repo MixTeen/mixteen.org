@@ -125,7 +125,7 @@ task('blog-archive', () =>
 );
 // Step 6 (last one) : generate an HTML page for each blog entry write in asciidoc
 task('blog-page', (cb) => {
-  src('src/main/client/blog/**/*.adoc')
+  src('src/blog/**/*.adoc')
     .pipe(website.readAsciidoc())
     .pipe(website.convertToHtml())
     .pipe(website.highlightCode({selector: 'pre.highlight code'}))
