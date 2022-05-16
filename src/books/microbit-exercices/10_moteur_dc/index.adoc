@@ -1,3 +1,4 @@
+[#fiche10]
 = Fiche 10: Piloter un moteur
 
 Niveau: Moyen
@@ -53,7 +54,7 @@ il ne faut pas que la vitesse descende en dessous de 0 (-1, -2).
 
 === Le transistor NPN 
 
-image:transistor.svg[Transistor NPN]
+image::10_moteur_dc/transistor.svg[Transistor NPN]
 
 Le transistor joue le rôle d'amplificateur et d'interruteur. 
 
@@ -63,7 +64,7 @@ S'il n'y a aucun courant entre B et E, le transistor ne laisse rien passer entre
 
 === Assemblage
 
-image:montage.svg[Montage Moteur Transistor]
+image::10_moteur_dc/montage.svg[Montage Moteur Transistor]
 
 Relier
 

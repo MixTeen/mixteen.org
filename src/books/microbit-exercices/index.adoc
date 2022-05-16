@@ -1,0 +1,34 @@
+= image:microbit_black.svg[Logo Micro:bit,100] Exercices Micro:bit
+:toc: left
+:toc-title: Sommaire
+
+Fiches d'exercices en Français à réaliser avec une carte Micro:bit.
+
+
+== Présentation
+
+[options="header"]
+|====
+| Exercice   | Niveau  | Prérequis 
+|xref:index.adoc#fiche01[Un cœur qui bat]  |Très facile  |   
+|xref:index.adoc#fiche02[Gai ou triste]  |Très facile  |   
+|xref:index.adoc#fiche03[Pile ou face]  |Facile  |   
+|xref:index.adoc#fiche04[Dé à 6 faces]  |Facile/Moyen  |   
+|xref:index.adoc#fiche05[Ne touche pas le fil]  |Facile  |   
+|xref:index.adoc#fiche06[Boussole]  |Moyen  |   
+|xref:index.adoc#fiche07[Lumière]  |Facile/Moyen  |   
+|xref:index.adoc#fiche08[Thermomètre]  |Facile/Moyen  |   
+|xref:index.adoc#fiche09[Feu tricolore]  |Moyen  |Composants électroniques   
+|xref:index.adoc#fiche10[Moteur à courant continu]  |Moyen  |Composants électroniques     
+|====
+
+include::01_coeur_qui_bat/index.adoc[leveloffset=+1]
+include::02_gai_triste/index.adoc[leveloffset=+1]
+include::03_pile_face/index.adoc[leveloffset=+1]
+include::04_de/index.adoc[leveloffset=+1]
+include::05_touche_fil/index.adoc[leveloffset=+1]
+include::06_boussole/index.adoc[leveloffset=+1]
+include::07_lumiere/index.adoc[leveloffset=+1]
+include::08_thermometre/index.adoc[leveloffset=+1]
+include::09_feu_tricolore/index.adoc[leveloffset=+1]
+include::10_moteur_dc/index.adoc[leveloffset=+1]
