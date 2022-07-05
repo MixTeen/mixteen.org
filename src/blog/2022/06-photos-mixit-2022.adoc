@@ -14,25 +14,39 @@
 
 [cols="1,1"]
 |===
-|image:/img/blog/2022/06/photo1.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo2.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo8.jpg[,500]
+|image:/img/blog/2022/06/photo2.jpg[,500]
+|Arrivée des enfants !
+|Atelier de code déconnecté au sol avec 4 enfants.
 
-|image:/img/blog/2022/06/photo3.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo4.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo3.jpg[,500]
+|image:/img/blog/2022/06/photo4.jpg[,500]
+|Deux enfants jouent avec des robots https://www.thymio.org[Thymio] sur un circuit dessiné sur un poster.
+|Photo d'une des deux salle de classe de MixTeen avec une quinzaine d'enfants.
 
-|image:/img/blog/2022/06/photo5.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo6.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo5.jpg[,500]
+|image:/img/blog/2022/06/photo6.jpg[,500]
+|Un enfant code avec https://scratch.mit.edu/[Scratch]
+|Atelier de code déconnecté au sol avec 4 enfants
 
-|image:/img/blog/2022/06/photo7.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo8.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo7.jpg[,500]
+|image:/img/blog/2022/06/photo1.jpg[,500]
+|Atelier de programmation des robots https://www.thymio.org[Thymio].
+|Un enfant code avec https://www.microbit.org/fr/get-started/first-steps/introduction/[micro:bit].
 
-|image:/img/blog/2022/06/photo9.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo10.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo9.jpg[,500]
+|image:/img/blog/2022/06/photo10.jpg[,500]
+|
+|Utilisation des https://www.thymio.org[Thymio] avec les programmes pré-enregistrés.
 
-|image:/img/blog/2022/06/photo11.jpg[Photo1 de mixteen,500]
-|image:/img/blog/2022/06/photo12.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo11.jpg[,500]
+|image:/img/blog/2022/06/photo12.jpg[,500]
+|Du https://scratch.mit.edu/[Scratch]
+|Encore du https://scratch.mit.edu/[Scratch]
 
 |image:/img/blog/2022/06/photo13.jpg[Photo1 de mixteen,500]
+|
+|Atelier https://arcade.makecode.com/[arcade makecode]
 |
 |=== 
 
@@ -49,6 +63,6 @@ Parmis la quarantaine d'enfants, nous avons eu une vingtaine d'enfants qui ont e
 
 == Merci à Esker d'avoir sponsorisé MixTeen pour cette édition MiXit 2022 !
 
-Chaque enfant a pu repartir avec un t-shirt et un kit  micro:bit.
+Chaque enfant a pu repartir avec un t-shirt et un kit https://www.microbit.org/fr/get-started/first-steps/introduction/[micro:bit].
 
 image::/img/blog/2019/25mai/logo-esker.png[Sponsor esker,200]
