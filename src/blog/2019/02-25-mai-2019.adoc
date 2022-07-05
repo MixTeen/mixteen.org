@@ -1,7 +1,7 @@
 :doctitle: Avec MiXiT, 2 évènements à venir le 25 mai !
 :description: Un atelier pour les enseignants et un atelier pour les enfants.
 :keywords: news, dates
-:author: Angélique Henry - MixTeen
+:author: Angélique Jard - MixTeen
 :revdate: 2019-05-08
 :category: Web
 :teaser: Avec MiXiT,2 évènements à venir le 25 mai !

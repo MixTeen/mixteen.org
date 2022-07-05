@@ -1,0 +1,54 @@
+:doctitle: Photos et retours sur les atelier MixTeen lors de MiXiT 2022
+:description: Après 2 ans de repos, MixTeen était de retour à la Manufacture des Tabacs le 25 mai, et c'était génial !
+:keywords: news, dates
+:author: Angélique Jard - MixTeen
+:revdate: 2022-06-23
+:category: Web
+:teaser: Photos et retours sur les atelier MixTeen lors de MiXiT 2022
+:imgteaser: ../../img/blog/2022/06/pirates-small.jpg
+
+== Merci aux enfants !
+
+43 enfants, 10 bénévoles MixTeen pour encadrer, un joyeux carnaval de geeks ! Au programme, des https://www.thymio.org[thymio], du https://scratch.mit.edu/[Scratch], du https://www.microbit.org/fr/get-started/first-steps/introduction/[micro:bit] et https://arcade.makecode.com/[arcade makecode]
+
+
+[cols="1,1"]
+|===
+|image:/img/blog/2022/06/photo1.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo2.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo3.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo4.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo5.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo6.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo7.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo8.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo9.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo10.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo11.jpg[Photo1 de mixteen,500]
+|image:/img/blog/2022/06/photo12.jpg[Photo1 de mixteen,500]
+
+|image:/img/blog/2022/06/photo13.jpg[Photo1 de mixteen,500]
+|
+|=== 
+
+== Passage en keynote de fin
+
+Parmis la quarantaine d'enfants, nous avons eu une vingtaine d'enfants qui ont eu l'infime patience de rester un peu plus tard, et ont eu l'honneur de se faire applaudir par les personnes présentes à la keynote de fin de MiXiT, c'était dur de les retenir !
+
+[cols="1,1"]
+|===
+|image:/img/blog/2022/06/amphi1.jpg[Les enfants de mixteen à l'entrée de l'amphithéatre des keynotes,500]
+|image:/img/blog/2022/06/amphi2.jpg[Les enfants de mixteen dans l'amphithéatre des keynotes,500]
+
+|=== 
+
+== Merci à Esker d'avoir sponsorisé MixTeen pour cette édition MiXit 2022 !
+
+Chaque enfant a pu repartir avec un t-shirt et un kit  micro:bit.
+
+image::/img/blog/2019/25mai/logo-esker.png[Sponsor esker,200]
