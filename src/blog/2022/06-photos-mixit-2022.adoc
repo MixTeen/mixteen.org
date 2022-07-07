@@ -4,7 +4,7 @@
 :author: Angélique Jard - MixTeen
 :revdate: 2022-06-23
 :category: Web
-:teaser: Photos et retours sur les atelier MixTeen lors de MiXiT 2022
+:teaser: Photos et retours sur les ateliers MixTeen lors de MiXiT 2022
 :imgteaser: ../../img/blog/2022/06/pirates-small.jpg
 
 == Merci aux enfants !
@@ -22,12 +22,12 @@
 |image:/img/blog/2022/06/photo3.jpg[,500]
 |image:/img/blog/2022/06/photo4.jpg[,500]
 |Deux enfants jouent avec des robots https://www.thymio.org[Thymio] sur un circuit dessiné sur un poster.
-|Photo d'une des deux salle de classe de MixTeen avec une quinzaine d'enfants.
+|Photo d'une des deux salles de classe de MixTeen avec une quinzaine d'enfants.
 
 |image:/img/blog/2022/06/photo5.jpg[,500]
 |image:/img/blog/2022/06/photo6.jpg[,500]
 |Un enfant code avec https://scratch.mit.edu/[Scratch]
-|Atelier de code déconnecté au sol avec 4 enfants
+|Atelier de code déconnecté avec 4 enfants
 
 |image:/img/blog/2022/06/photo7.jpg[,500]
 |image:/img/blog/2022/06/photo1.jpg[,500]
@@ -52,7 +52,7 @@
 
 == Passage en keynote de fin
 
-Parmis la quarantaine d'enfants, nous avons eu une vingtaine d'enfants qui ont eu l'infime patience de rester un peu plus tard, et ont eu l'honneur de se faire applaudir par les personnes présentes à la keynote de fin de MiXiT, c'était dur de les retenir !
+Parmi la quarantaine d'enfants, nous avons eu une vingtaine d'enfants qui ont eu l'infime patience de rester un peu plus tard, et ont eu l'honneur de se faire applaudir par les personnes présentes à la keynote de fin de MiXiT, c'était dur de les retenir !
 
 [cols="1,1"]
 |===
