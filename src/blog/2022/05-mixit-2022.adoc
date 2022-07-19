@@ -4,7 +4,7 @@
 :author: Gérald Quintana - MixTeen
 :revdate: 2022-05-01
 :category: Web
-:teaser: Un ateliet pendant MiXiT,2 !
+:teaser: Un atelier pendant MiXiT !
 :imgteaser: ../../img/blog/2022/05/mixit.png
 
 Après 2 ans de repos, nous sommes en super forme! Nous espérons que vous, les enfants et adolescents, l'êtes tout autant!
