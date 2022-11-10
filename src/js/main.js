@@ -47,6 +47,7 @@ window.app = (function() {
     });
   }
 
-  initSw();
+  // Disable service worker activation to prevent image cache errors
+  // initSw();
   loadLazyImages();
 })();
