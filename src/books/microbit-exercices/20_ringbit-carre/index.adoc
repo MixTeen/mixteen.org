@@ -1,0 +1,41 @@
+= Fiche 10: Dessiner avec Ring:Bit
+
+Niveau: Moyen
+
+Diriger un voiture ring:bit depuis la carte micro:bit.
+
+== Blocs
+
+* Basique
+** Au démarrage
+** Toujours
+** Montrer LEDs
+** Pause 
+* Boucles 
+** Répéter ... fois
+* RingBitCar
+** Assigner roue gauche sur ... et route droite sur
+** Go ... for ... seconds
+** Spin ... ... degrees
+* NeoPixel
+** Définir .. à NeoPixel sur ...
+** Régler couleur ... sur ...
+
+== Etape 0: Initialisation Ring:Bit
+
+* Ajouter l'extension Ring:Bit
+.. Rechercher *ringbit*
+.. Sélectionner le paquet *Ring:bit Car* par *ELECFREAKS*
+* Initialiser Ring:Bit au démarrage
+.. Assigner rouge gauche à broche P1 et roue droite à broche P2
+.. Définir strip à NeoPixel sur broche P0 avec 2 LEDs en RGB
+
+== Etape 1: Faire un carré
+
+* Faire en sorte que la voiture dessine un carré
+* Lorsqu'elle avance afficher une flèche &uparrow;
+* Lorsqu'elle tourne afficher une flèche &rightarrow; ou &leftarrow;
+
+== Etape 2: Lumières
+
+* Faire clignoter les lumières en alternant les couleurs **rouge** et **bleu**.
