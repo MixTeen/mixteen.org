@@ -1,3 +1,12 @@
+:doctitle: Lumière
+:description: Lumière
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-22
+:category: Microbit
+:teaser: Facile/Moyen
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 7: Lumière
 
 == Blocs

@@ -1,3 +1,4 @@
+
 = image:microbit_black.svg[Logo Micro:bit,100] Exercices Micro:bit
 
 Fiches d'exercices en Français à réaliser avec une carte Micro:bit. livre1
@@ -7,8 +8,8 @@ Fiches d'exercices en Français à réaliser avec une carte Micro:bit. livre1
 [options="header"]
 |====
 | Exercice   | Niveau  | Prérequis 
-|link:01_coeur_qui_bat/index.adoc[Un cœur qui bat]  |Très facile  |   
-|link:02_gai_triste/index.adoc[Gai ou triste]  |Très facile  |   
+|link:01_coeur_qui_bat/index.adoc[Un coeur qui bat]  |Très facile  |
+|link:02_gai_triste/index.adoc[Gai ou triste]  |Très facile  |
 |link:03_pile_face/index.adoc[Pile ou face]  |Facile  |   
 |link:04_de/index.adoc[Dé à 6 faces]  |Facile/Moyen  |   
 |link:05_touche_fil/index.adoc[Ne touche pas le fil]  |Facile  |   

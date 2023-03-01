@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="preload" href="css/bloglist.css" as="style" onload="this.rel='stylesheet'">
+  {{> _html_header}}
+</head>
+<body class="mixteen">
+{{> _page_header}}
+<main>
+  <div class="mn_sky" id="blog">
+    <mixteen-block>
+
+      {{#articleByYears}}
+        <h1 class="center">
+          <img src="../../img/microbit_black.svg" alt="Micro:bit" title="Micro:bit">Exercices Micro:bit</h1><br>
+        <p>
+          Fiches d'exercices en Français à réaliser avec une carte Micro:bit. livre1
+        </p>
+        <div class="dm-blog--container">
+          <div class="dm
+          -blog--container-article">
+            {{#value}}
+              <article>
+                <a href="/books/{{dir}}/{{filename}}.html">{{doctitle}} ({{teaser}})</a>
+              </article>
+            {{/value}}
+          </div>
+        </div>
+      {{/articleByYears}}
+
+      <div class="dm-blog--button">
+        <button onclick="document.location.href='rss/blog.xml'">Flux RSS</button>
+      </div>
+    </mixteen-block>
+  </div>
+  {{> _page_footer}}
+</main>
+{{> _html_footer}}
+</body>
+</html>

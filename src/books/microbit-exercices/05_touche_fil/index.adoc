@@ -1,3 +1,12 @@
+:doctitle: Ne touche pas le fil
+:description: Ne touche pas le fil
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-24
+:category: Microbit
+:teaser: Facile
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 5: Ne touche pas le fil
 
 Niveau: Facile/Moyen

@@ -1,3 +1,12 @@
+:doctitle: Boussole
+:description: Boussole
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-23
+:category: Microbit
+:teaser: Moyen
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 6: Boussole
 
 Niveau: Moyen

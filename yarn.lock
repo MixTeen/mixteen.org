@@ -3711,9 +3711,9 @@ detect-newline@2.X:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha1-9B8cEL5LAOh7XxPaaAdZ8sW/0+I=
 
-"devmind-website@https://github.com/Dev-Mind/devmind-website.git#2.1.9":
-  version "2.1.2"
-  resolved "https://github.com/Dev-Mind/devmind-website.git#03ab51357fc37cda363a3e7c026e6ffccc7e6b40"
+"devmind-website@https://github.com/Dev-Mind/devmind-website.git#2.1.14":
+  version "2.1.14"
+  resolved "https://github.com/Dev-Mind/devmind-website.git#b8b03bf975b77b8b364090f7e1e06e11df45ee12"
   dependencies:
     "@types/gulp" "^4.0.6"
     "@types/through2" "^2.0.36"
@@ -3721,15 +3721,15 @@ detect-newline@2.X:
     cheerio "^0.22.0"
     fs "^0.0.1-security"
     graceful-fs "^4.2.4"
-    handlebars "^4.7.6"
-    highlight.js "^10.1.2"
+    handlebars "^4.7.7"
+    highlight.js "^10.7.3"
     kind-of "^6.0.3"
     lodash.merge "^4.6.2"
     mixin-deep "^2.0.1"
     moment "^2.27.0"
     plugin-error "^1.0.1"
     prismjs "^1.22.0"
-    set-value "^3.0.2"
+    set-value "^3.0.3"
     through2 "^4.0.2"
     ts-node "^9.0.0"
     typescript "^4.0.2"
@@ -5887,7 +5887,7 @@ gzip-size@^4.1.0:
     duplexer "^0.1.1"
     pify "^3.0.0"
 
-handlebars@^4.7.6, handlebars@^4.7.7:
+handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
@@ -6088,7 +6088,7 @@ highlight.js@8.8.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-8.8.0.tgz#49d5e2185f471731f4ebfdfd97466e9ee962756f"
   integrity sha1-SdXiGF9HFzH06/39l0ZunulidW8=
 
-highlight.js@^10.1.2:
+highlight.js@^10.7.3:
   version "10.7.3"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
@@ -11198,10 +11198,10 @@ set-value@^2.0.0:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-set-value@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-3.0.2.tgz#74e8ecd023c33d0f77199d415409a40f21e61b90"
-  integrity sha512-npjkVoz+ank0zjlV9F47Fdbjfj/PfXyVhZvGALWsyIYU/qrMzpi6avjKW3/7KeSU2Df3I46BrN1xOI1+6vW0hA==
+set-value@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-3.0.3.tgz#178e190d29cec6c086167222177b2fcb92f7ad56"
+  integrity sha512-Xsn/XSatoVOGBbp5hs3UylFDs5Bi9i+ArpVJKdHPniZHoEgRniXTqHWrWrGQ0PbEClVT6WtfnBwR8CAHC9sveg==
   dependencies:
     is-plain-object "^2.0.4"
 

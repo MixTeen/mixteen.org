@@ -1,3 +1,13 @@
+:doctitle: Dé
+:description: Dé
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-25
+:category: Microbit
+:teaser: Facile/Moyen
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
+
 = Fiche 4: Dé
 
 Niveau: Moyen

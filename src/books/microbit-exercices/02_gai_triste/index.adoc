@@ -1,3 +1,12 @@
+:doctitle: Gai ou triste
+:description: Gai ou triste
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-27
+:category: Microbit
+:teaser: Très facile
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 2: Gai ou triste
 
 Niveau: Très facile
