@@ -8,7 +8,7 @@ Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen]. Commme 
 
 === La version courte
 
-* Node > 10
+* Node > 14
 
 [source,shell]
 ---

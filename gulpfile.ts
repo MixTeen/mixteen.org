@@ -18,7 +18,6 @@ import * as replace from 'gulp-replace';
 import * as revReplace from 'gulp-rev-replace';
 import * as imagemin from 'gulp-imagemin';
 import * as workboxBuild from './node_modules/workbox-build/build/index.js'
-import {convertToGitBook} from "./gulp-extensions/convert-to-gitbook";
 
 const HTMLMIN_OPTIONS = {
   removeComments: true,
@@ -49,8 +48,12 @@ const website = new DevMindGulpBuilder({
     rss: 'src/metadata/rss.json',
     blog: 'src/metadata/blog.json',
     html: 'src/metadata/html.json',
-    sitemap: 'src/metadata/sitemap.json'
-  }
+    sitemap: 'src/metadata/sitemap.json',
+  },
+  dirNames: [
+    'blog/',
+    'books/'
+  ]
 });
 
 // Service worker version is read in a file
@@ -141,8 +144,42 @@ task('blog', series(
   parallel('blog-page', 'blog-list', 'blog-rss', 'blog-archive', 'blog-index')
 ));
 
-task('book', (cb) =>
-  convertToGitBook([ {src: 'src/books/microbit-exercices', dist: 'build/dist/books/microbit/exercices'} ], cb));
+// task('book', (cb) =>
+//   convertToGitBook([ {src: 'src/books/microbit-exercices', dist: 'build/dist/books/microbit/exercices'} ], cb));
+
+// Step 1 : create a json file which contains all book pages descriptions
+task('books-indexing', () =>
+  src('src/books/**/index.adoc')
+    .pipe(website.readAsciidoc())
+    .pipe(website.convertToHtml())
+    .pipe(website.convertToJson('bookindex.json'))
+    .pipe(dest('build/.tmp/books'))
+);
+
+// Step 2 : create a page for people who wants to navigate in blog archive
+task('books-archive', () =>
+  src('build/.tmp/books/bookindex.json')
+    .pipe(website.readIndex())
+    .pipe(website.convertToBlogList('src/templates/books_archive.handlebars', HANDLEBARS_PARTIALS, 'books.html', 0))
+    .pipe(dest('build/.tmp'))
+    .pipe(htmlmin(HTMLMIN_OPTIONS))
+    .pipe(dest('build/dist'))
+);
+
+// Step 3 (last one) : generate an HTML page for each blog entry write in asciidoc
+task('books-page', (cb) => {
+  src('src/books/**/index.adoc')
+    .pipe(website.readAsciidoc())
+    .pipe(website.convertToHtml())
+    .pipe(website.highlightCode({selector: 'pre.highlight code'}))
+    .pipe(website.convertToBlogPage('src/templates/books.handlebars', HANDLEBARS_PARTIALS, 'build/.tmp/books/bookindex.json'))
+    .pipe(dest('build/.tmp/books'))
+    .pipe(htmlmin(HTMLMIN_OPTIONS))
+    .pipe(dest('build/dist/books'))
+    .on('end', () => cb())
+});
+
+task('books', series('books-indexing', 'books-archive', 'books-page'));
 
 
 // HTML pages generation
@@ -325,6 +362,7 @@ task('build', series(
   'images-minify',
   'styles',
   'blog',
+  'books',
   'images',
   'html',
   'local-js',
@@ -340,6 +378,7 @@ task('build-dev', series(
   'images-dev',
   'styles',
   'blog',
+  'books',
   'images',
   'html',
   'local-js',

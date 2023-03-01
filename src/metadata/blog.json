@@ -15,5 +15,11 @@
     "title": "Les archives du blog MixTeen",
     "description": "Retrouvez l'intégralité des articles du blog blog MixTeen qui vous propose des descriptions des événéments organisés par l'association",
     "blog": "findArchiveBlogpost"
+  },
+  "books.html": {
+    "keywords": "MixTeen micro:bit book",
+    "title": "MixTeen micro:bit book",
+    "description": "Fiches d'exercices en Français à réaliser avec une carte Micro:bit. livre1",
+    "blog": "findArchiveBlogpost"
   }
 }

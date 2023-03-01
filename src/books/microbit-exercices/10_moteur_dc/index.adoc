@@ -1,3 +1,12 @@
+:doctitle: Piloter un moteur
+:description: Piloter un moteur
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-19
+:category: Microbit
+:teaser: Moyen
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 10: Piloter un moteur
 
 Niveau: Moyen

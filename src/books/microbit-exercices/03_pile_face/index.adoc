@@ -1,3 +1,12 @@
+:doctitle: Pile ou face
+:description: Pile ou face
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-26
+:category: Microbit
+:teaser: Facile
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 3: Pile ou face
 
 Niveau: facile

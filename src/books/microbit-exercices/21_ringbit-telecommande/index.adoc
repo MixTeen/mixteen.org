@@ -1,3 +1,12 @@
+:doctitle: Télécommander Ring:Bit
+:description: Télécommander Ring:Bit
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-17
+:category: Microbit
+:teaser: Moyen
+:imgteaser: ../../../../img/blog/2022/05/mixit.png
+
 = Fiche 10: Télécommander Ring:Bit
 
 Niveau: Moyen

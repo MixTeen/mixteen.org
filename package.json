@@ -23,7 +23,7 @@
     "compression": "1.7.4",
     "cssnano": "4.1.10",
     "del": "5.1.0",
-    "devmind-website": "https://github.com/Dev-Mind/devmind-website.git#2.1.9",
+    "devmind-website": "https://github.com/Dev-Mind/devmind-website.git#2.1.14",
     "errorhandler": "1.5.1",
     "express": "4.17.1",
     "express-handlebars": "5.3.1",
