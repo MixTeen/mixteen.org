@@ -1,0 +1,103 @@
+:doctitle: Piano lumineux
+:description: S'amuser avec les couleurs
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-02-04
+:category: Microbit
+:teaser: Moyen
+:imgteaser: ../30_piano_anniversaire/micro-bit-piano-expansion-board-kubii.png
+
+= Fiche 32: Piano lumineux
+
+Niveau: Moyen
+
+Utiliser la carte d'extension Yahboom Piano
+http://www.yahboom.net/study/piano_bit
+
+== Blocs
+
+* Base
+** Au démarrage / Toujours
+* Logique
+** Si ... alors
+** Comparaison ... = ...
+** Et logique
+* Variables
+** Définir ... à ...
+** Modifier ... à ...
+* Piano
+** RGB Program Close
+** Music Button C, D, etc.
+** RGB Program
+* Neopixel
+** show color
+** red ... green ... blue ...
+** set pixel color at ... to ...
+** show
+
+
+== Etape 0: Initialisation Piano:Bit
+
+* Ajouter l'extension Piano:Bit
+.. Rechercher *https://github.com/lzty634158/YB_Piano*
+.. Sélectionner le paquet *Extension YahBoom YB_Piano*
+
+== Etape 1: Une couleur pour chaque touche
+
+* Au démarrage
+** Initialiser les 3 LEDs avec RGB Program Close
+* Toujours
+** Stocker la valeur Music touch return dans une variable `touche`
+** Afficher le nombre `touche`
+** Comparer la variable `touche` avec la touche C, D, E
+** Pour chaque touche mettre une couleur différente
+
+== Etape 2: Générer des nouvelles couleurs
+
+Une couleur est constitué de 3 composantes rouge, vert et bleu.
+Chacune d'elle peur aller de 0 à 255.
+Par exemple pour affiche du:
+[cols="2h,>1,>1,>1",options=header]
+|===
+| Couleur          | R   | V   | B   
+
+| Rouge            | 255 | 0   | 0   
+| Jaune            | 255 | 255 | 0   
+| Vert             | 0   | 255 | 0   
+| Turquoise / Cyan | 0   | 255 | 255 
+| Bleu             | 0   | 0   | 255 
+| Violet / Magenta | 255 | 0   | 255 
+| Blanc            | 255 | 255 | 255 
+| Gris             | 64  | 64  | 64  
+| Noir             | 0   | 0   | 0   
+|=== 
+
+Comment faire du rose? Du bleu foncé?
+
+* Créer 3 variables `R`, `V` et `B`, une pour a chaque composante
+* Lorsque'on appuie sur
+** la touche C, diminuer la composante `R`
+** la touche D, augmenter la composante `R`
+** la touche E, diminuer la composante `V`
+** la touche F, augmenter la composante `V`
+** la touche G, diminuer la composante `B`
+** la touche A, augmenter la composante `B`
+* Pour manipuler les variables (la traduction francaise est mauvaise)
+** Pour ajouter 1 à une variable: modifier `X` de 1
+** Pour enlever 1 à une variable: modifier `X` de -1
+* Utiliser montrer nombre pour afficher la nouvel valeur de la composante modifiée
+* Changer la couleur des LEDs, avec la couleur constitué par les 3 composantes `R`, `V` et `B`
+
+
+== Etape 3: pour aller plus loin
+
+* Comment faire pour que les 3 variables `R`, `V` et `B`restent dans l'intervalle 0-255
+** ne dépassent pas 255 quand on augmente
+** ne descendent pas en dessous de 0 quand on diminue
+* Comment faire pour régler la couleur de chacune des 3 LEDs?
+** Créer une variable `L` contenant le numéro de LED en cours de réglage
+** Lorsqu'on appuie sur les touches L, M ou H mettre la valeur de `L` à 0, 1 ou 2
+** Pour changer la valeur d'une seule LED utiliser
+** set pixel color at `L` to ...
+** show
+

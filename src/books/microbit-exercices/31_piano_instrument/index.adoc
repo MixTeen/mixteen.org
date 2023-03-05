@@ -3,8 +3,8 @@
 :keywords: microbit
 :author: Gérald Quintana - MixTeen
 :revdate: 2023-02-04
-:category: Difficile
-:teaser: Moyen
+:category: Microbit
+:teaser: Difficile
 :imgteaser: ../30_piano_anniversaire/micro-bit-piano-expansion-board-kubii.png
 
 = Fiche 30: Jouer du piano
@@ -20,17 +20,17 @@ http://www.yahboom.net/study/piano_bit
 ** Au démarrage / Toujours
 ** Montrer nombre
 * Variable
-** Définir V à 
+** Définir ... à ...
 ** Lorsque le bouton ... pressé
 * Piano
 ** Music Touch Return
 ** RGB Program Close et RGB_Program
-** Play piano tone
+** Play piano ...
 * Neopixel
 ** Set pixel color at ... to ...
 ** Show
 
-== Etape 0: Initialisation Ring:Bit
+== Etape 0: Initialisation Piano:Bit
 
 * Ajouter l'extension Piano:Bit
 .. Rechercher *https://github.com/lzty634158/YB_Piano*
@@ -71,12 +71,12 @@ image:microbit-piano-neopixel.png[]
 
 == Etape 4: Fonction
 
-Le bloc suivant est répéter 3 fois:
+Le bloc suivant est répété 3 fois:
 
 * Mettre X dans la variable `octave`
 * Allumer la LED X 
 
-On va le mettre dans un fonction
+On va le mettre dans une fonction
 
 . Créer un fonction `reglerOctave` qui prend en paramètre un nombre,
 mettre le bloc ci-dessus. 
