@@ -7,10 +7,12 @@ Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen].
 Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
 
 Pruduction:
+
 * URL: https://mixteen.org/[https://mixteen.org/]
 * branche git: `prod`
 
 Pré-production:
+
 * URL: https://mixteen-staging.cleverapps.io/index.html[https://mixteen-staging.cleverapps.io/index.html]
 * branche git: `master`
 
