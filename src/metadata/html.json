@@ -34,5 +34,11 @@
     "title": "MixTeen - Event 25/05/2019",
     "description" : "Redirection vers l'évènement du 25/05/2019",
     "priority": -1
+  },
+  "code-de-conduite.html": {
+    "keywords": "COC",
+    "title": "Code de conduite MixTeen",
+    "description" : "Code de conduite pour les évènements",
+    "priority": -1
   }
 }
