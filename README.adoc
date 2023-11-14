@@ -159,6 +159,14 @@ Pour deployer il suffit de:
 * Node = 14
 A faire: pour l'instant le build ne passe pas en Node 16.
 
+Si vous utilisez asdf vous pouvez installer la version de nodejs avec (cf .tool-versions):
+[source,shell]
+---
+asdf plugin add nodejs
+asdf install
+---
+
+Puis:
 [source,shell]
 ---
 npm install -g yarn
