@@ -19,7 +19,7 @@
     "@babel/preset-env": "7.11.5",
     "@types/autoprefixer": "9.7.2",
     "autoprefixer": "9.8.6",
-    "async": "3.2.0",
+    "async": "3.2.2",
     "compression": "1.7.4",
     "cssnano": "4.1.10",
     "del": "5.1.0",
