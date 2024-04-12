@@ -1,0 +1,27 @@
+name: Build dist folder on pull requests
+
+on:
+  pull_request:
+    branches:
+      - 'master'
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  build-dist:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🦄 Bienvenue sur le build du site MixTeen 🥳 !"
+      - uses: actions/checkout@v4
+      - name: Use Node.js 14
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.21.3'
+      - run: yarn install
+      
+      - name: Archive dist results
+        uses: actions/upload-artifact@v3
+        with:
+          name: archive-dist-folder
+          path: build/dist

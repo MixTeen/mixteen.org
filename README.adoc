@@ -2,105 +2,28 @@ image::src/images/logo/logo_mixteen_baseline.png[MixTeen]
 
 == Le site web de MixTeen
 
-Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen]. Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
+Ce projet permet de gérer https://mixteen.org/[le site web de MixTeen].
 
-== D'un point de vue technique
+Commme nous allons le voir plus bas le site est généré statiquement et tout est génére à l'installation. Installation en local pour développer ou ajouter du contenu, mais aussi lorsque le site est installé sur le serveur de production. Le but est vraiment de pouvoir bénéficier des mêmes outils quelque soit l'environnement.
 
-=== La version courte
+Pruduction:
 
-* Node > 14
+* URL: https://mixteen.org/[https://mixteen.org/]
+* branche git: `prod`
 
-[source,shell]
----
-npm install -g yarn
-npm install -g gulp-cli
-yarn install
-yarn start
----
+Pré-production:
 
-=== Compatibilité navigateur
-
-Le site n'est compatible que sur les navigateurs dits "modernes" (pouvant exécuter du JavaScript ES > 6). Vous pouvez donc utiliser les navigateurs suivant
-
-* Chrome
-* Edge
-* Firefox
-* Safari
-* Edge voir Internet Explorer >= 11
-
-=== Configurer ton poste de développement
-
-Ce projet est Open Source et toutes les personnes motivées sont les bienvenues pour nous aider à faire évoluer notre site web.
-
-D'un point de vue technique tu as besoin pour lancer le site en local
-
-* D'une version de https://nodejs.org/en/[Node JS] > 10.0. Tu peux aller sur le site pour installer Node sur ta machine. Le site ne fonctionne pas directement avec Node mais nous utilisons l'écosystème JavaScript pour le générer.
-* Lors de l'installation nous allons télécharger des dépendances Node et pour celà nous utilisons le gestionnaire de paquets https://yarnpkg.com/en/[Yarn]. Si `yarn` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g yarn` (npm est automatiquement installé en même temps que Node)
-* Le cycle de vie de l'application est lui géré par l'application http://gulpjs.com/[Gulp]. Si `gulp` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g gulp-cli`
-* Le site utilise FireBase pour la gestion des commentaires. Notre compte est https://mixteen-d85dc.firebaseio.com. Pour commencer à développer tu n'as rien besoin de paramétrer sur ton poste
-
-=== Installer le site en local
-
-Une fois que tous les outils décrits dans la partie précédente sont installés tu peux lancer les commandes suivantes
-
-*Initialiser le projet* et charger les librairies utilisées pour le développement
-
-[source, shell, subs="none"]
-----
-yarn install
-----
-
-*Lancer le site en local*
-
-[source, shell, subs="none"]
-----
-yarn start
-----
-
-Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
-
-* _initModeDev_ : initialise le mode développement afin de ne pas pourir en dev la base Firebase de production
-* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
-* _styles_ : compile les fichiers Sass en CSS
-* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
-* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
-* _images-post_ : copie les images dans le répertoire de sortie
-* _lint_ : analyse le code pour détecter les problèmes
-* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
-* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
-* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
-* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
-* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
-* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
-* _serveAndWatch_ : démarre un serveur web pour les tests et active un mode watch pour que les ressources soient automatiquement mises à jour quand elles sont modifiées
-
-
-*Générer le site pour la production*
-
-[source, shell, subs="none"]
-----
-gulp
-----
-
-Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
-
-* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
-* _styles_ : compile les fichiers Sass en CSS
-* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
-* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
-* _images-post_ : copie les images dans le répertoire de sortie
-* _lint_ : analyse le code pour détecter les problèmes
-* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
-* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
-* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
-* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
-* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
-* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
-* _sitemap_ : génère le fichier sitemap.xml pour les robots indexeurs
+* URL: https://mixteen-staging.cleverapps.io/index.html[https://mixteen-staging.cleverapps.io/index.html]
+* branche git: `master`
 
 == Contribuer au site
 
-Je viens de parler de la partie technique mais pas besoin de maîtriser tout ça pour participer à ce projet.
+La partie technique est détaillée plus bas dans le document, mais pour l'écriture d'article en résumé il faut:
+- sur une branche git dédiée
+- créer un fichier texte adoc dans `src/blog/<année>`
+- ajouter la ou les images dans `images/blog/[annee]`
+- faire une Pull Request qui cible `master`
+- le build devrait se lancer et générer le site dans `archive-dist-folder`
 
 === Level 1 : ajouter un article
 
@@ -113,7 +36,7 @@ Pour rappel les articles de blog apparaissent
 * la page archive où on retrouvera l'intégralité
 
 ==== Ressources
-Chaque article doit au moins avoir
+Chaque article doit au moins avoir:
 
 * une image de 1500 pixels par 764 (ou 640 x 326). Dans Gimp c'est simple d'aller changer les dimensions (`Menu Image` > `Canvas Size` ou `Menu Image` > `Resize image`
 * un titre unique (important pour les moteurs de recherche)
@@ -218,3 +141,116 @@ Les autres templates sont
 * _index.handlebars_ : la page index avec les 2 derniers articles
 * _site.handlebars_ : la page site qui est utilisé pour générer les pages qui sont dans le réertoire HTML
 
+== Deploiements en préproduction et production
+
+* La branche master est automatiquement deployée en préprod
+* La branche prod est automatiquement deployée en produdction
+
+Pour deployer il suffit de:
+* vérifier que la version sur master est ok sur https://mixteen-staging.cleverapps.io/index.html[https://mixteen-staging.cleverapps.io/index.html]
+* faire unr Pull Request de `master` vers `prod`
+* faire vérifier à un autre humain 👀 qui valide la PR
+* merger
+
+== D'un point de vue technique
+
+=== La version courte
+
+* Node = 14
+A faire: pour l'instant le build ne passe pas en Node 16.
+
+Si vous utilisez asdf vous pouvez installer la version de nodejs avec (cf .tool-versions):
+[source,shell]
+---
+asdf plugin add nodejs
+asdf install
+---
+
+Puis:
+[source,shell]
+---
+npm install -g yarn
+npm install -g gulp-cli
+yarn install
+yarn start
+---
+
+=== Compatibilité navigateur
+
+Le site n'est compatible que sur les navigateurs dits "modernes" (pouvant exécuter du JavaScript ES > 6). Vous pouvez donc utiliser les navigateurs suivant
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Edge voir Internet Explorer >= 11
+
+=== Configurer ton poste de développement
+
+Ce projet est Open Source et toutes les personnes motivées sont les bienvenues pour nous aider à faire évoluer notre site web.
+
+D'un point de vue technique tu as besoin pour lancer le site en local
+
+* D'une version de https://nodejs.org/en/[Node JS] > 10.0. Tu peux aller sur le site pour installer Node sur ta machine. Le site ne fonctionne pas directement avec Node mais nous utilisons l'écosystème JavaScript pour le générer.
+* Lors de l'installation nous allons télécharger des dépendances Node et pour celà nous utilisons le gestionnaire de paquets https://yarnpkg.com/en/[Yarn]. Si `yarn` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g yarn` (npm est automatiquement installé en même temps que Node)
+* Le cycle de vie de l'application est lui géré par l'application http://gulpjs.com/[Gulp]. Si `gulp` n'est pas installé tu peux lancer dans un terminal la commande `npm install -g gulp-cli`
+* Le site utilise FireBase pour la gestion des commentaires. Notre compte est https://mixteen-d85dc.firebaseio.com. Pour commencer à développer tu n'as rien besoin de paramétrer sur ton poste
+
+=== Installer le site en local
+
+Une fois que tous les outils décrits dans la partie précédente sont installés tu peux lancer les commandes suivantes
+
+*Initialiser le projet* et charger les librairies utilisées pour le développement
+
+[source, shell, subs="none"]
+----
+yarn install
+----
+
+*Lancer le site en local*
+
+[source, shell, subs="none"]
+----
+yarn start
+----
+
+Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
+
+* _initModeDev_ : initialise le mode développement afin de ne pas pourir en dev la base Firebase de production
+* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
+* _styles_ : compile les fichiers Sass en CSS
+* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
+* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
+* _images-post_ : copie les images dans le répertoire de sortie
+* _lint_ : analyse le code pour détecter les problèmes
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
+* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
+* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
+* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
+* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
+* _serveAndWatch_ : démarre un serveur web pour les tests et active un mode watch pour que les ressources soient automatiquement mises à jour quand elles sont modifiées
+
+
+*Générer le site pour la production*
+
+[source, shell, subs="none"]
+----
+gulp
+----
+
+Cette commande Gulp effectue différentes tâches que tu peux lancer individuellement si tu veux tester une phase particulière de la construction du projet
+
+* _images-pre_ : lance la pre optimisation des images pour les compresser au mieux pour le web
+* _styles_ : compile les fichiers Sass en CSS
+* _blog_ : convertit les fichiers Asccidoc en HTML et génère également un flux RSS pour le blog
+* _images_ : génère les images au format webp qui est un format optimisé pour Chrome
+* _images-post_ : copie les images dans le répertoire de sortie
+* _lint_ : analyse le code pour détecter les problèmes
+* _html_ : génère les pages HTML à partir des sources. Chaque page HTML est intégrée dans un template handlebars pour éviter de toujours déclarer les mêmes entêtes dans tous nos fichiers
+* _local-js_ : crée un fichier bundle avec les différents scripts définis dans l'application
+* _vendor-js_ : copie les dépendances externes dans le répertoire de sortie
+* _copy_ : copie les fichiers statiques (manifest, robot.txt...) dans le répertoire de sortie
+* _cache-busting_ : ajoute un hash à chaque ressource pour limiter les problèmes de cache
+* _service-worker_ : génère des services workers pour être capable d'utiliser le site hors ligne
+* _sitemap_ : génère le fichier sitemap.xml pour les robots indexeurs

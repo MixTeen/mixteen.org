@@ -1,0 +1,24 @@
+:doctitle: Mixteen a 10 ans !
+:description: Un atelier pour les enfants dans le cadre de MiXiT.
+:keywords: news, dates, code
+:author: Aude - MixTeen
+:revdate: 2024-04-11
+:category: Web
+:teaser: Un atelier pendant MiXiT !
+:imgteaser: ../../img/blog/2024/mixit.jpg
+
+10 ans de Mixteen
+10 ans de code juste pour les enfants : des programmes en Scratch à imaginer, des robots Thymio avec qui jouer, des jeux en débranché pour comprendre la tech, des cartes Microbit à explorer ...
+10 ans de sourires, de partages
+10 ans à s'amuser ... à coder
+
+== De la programmation, des robots, des crêpes et du coeur !
+
+image::/img/blog/2019/25mai/born-to-code.png[Born to code,297,397, align="left"]
+Nous organisons un atelier MixTeen dans le cadre de la conférence https://mixitconf.org/[MiXiT].
+Il se déroulera à CPE Lyon, le vendredi 26 avril après-midi.
+L'âge idéal pour les enfants est de 7 à 15 ans.
+**Pour prendre un billet**, rendez-vous sur https://www.billetweb.fr/atelier-mixteen-2024
+
+== Merci aux sponsors qui soutiennent MixTeen : Esker, Red Froggy et Max Digital Services !
+Vous pouvez aussi les retrouver la description et les sites de sponsors dans la partie MixTeen de https://mixitconf.org/sponsors
