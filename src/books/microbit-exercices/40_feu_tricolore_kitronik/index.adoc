@@ -1,0 +1,56 @@
+:doctitle: Feu tricolore Stop:Bit
+:description: Commander les feux tricolores d'un carrefour, attention aux accidents!
+:keywords: microbit
+:author: Gérald Quintana - MixTeen
+:revdate: 2023-03-05
+:category: Microbit
+:teaser: Moyen
+:imgteaser: kitronik-stopbit.webp
+
+== Fiche 40: Feu tricolore Stop:Bit
+
+Niveau: Moyen
+
+Utiliser la carte d'extension Kitronik Stop:Bit
+https://kitronik.co.uk/blogs/resources/makecode-tutorials-for-stop-bit-for-micro-bit
+
+=== Blocs
+
+* Base
+** Au démarrage / Toujours
+** Pause ... ms
+* Stop:Bit
+** Turn Red/Green/Yellow Traffic light On/Off
+* Radio
+** Définir groupe ...
+** Envoyer le nombre ... par radio
+** Quand une donnée est reçue par radio `receivedNumber`
+
+
+=== Etape 0: Initialisation Stop:Bit
+
+* Visser le feu sur une carte Micro:Bit
+* Ajouter l'extension Stop:Bit
+.. Rechercher *Stop:Bit*
+.. Sélectionner le paquet *Kitronik Stop:Bit*
+
+=== Etape 1: Animer un premier feu
+
+* Programmer l'animation suivante:
+** Allumer la lumière verte pendant 3s
+** Allumer la lumière orange pendant 1s
+** Allumer la lumière rouge pendant 3s
+* Répéter en boucle l'animation
+
+=== Etape 2: Piloter le second feu
+
+WARNING: Ne pas allumer deux lumières vertes en même temps, sinon c'est l'accident!
+
+* Utiliser une seconde carte Micro:Bit et un second feu Stop:Bit
+* Sur les 2 cartes, configurer le même canal radio
+* Sur la première carte:
+** Envoyer le nombre 0 pour allumer le vert
+** Envoyer le nombre 1 pour allumer le orange
+** Envoyer le nombre 2 pour allumer le rouge
+* Sur la seconde carte:
+** Quand un nombre est reçu par radio, allumer la lumière correspondante

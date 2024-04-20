@@ -7,11 +7,11 @@
 :teaser: Moyen
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 6: Boussole
+== Fiche 6: Boussole
 
 Niveau: Moyen
 
-== Blocs
+=== Blocs
 
 * Basique
 ** Au démarrage
@@ -31,7 +31,7 @@ Niveau: Moyen
 * Variables
 ** Définir item
 
-== Etape 1: Afficher l'angle
+=== Etape 1: Afficher l'angle
 
 Au démarrage de la carte Micro:bit,
 calibrer la boussole.
@@ -44,11 +44,11 @@ Lorsque le bouton 1 est pressé,
 lire la direction de la boussole (c'est un angle en degrés),
 et afficher ce nombre.
 
-== Etape 2: Afficher le point cardinal
+=== Etape 2: Afficher le point cardinal
 
 Le Nord correspond à la direction 0°=360°:
 
-image::angles.svg[Angles]
+image::06_boussole/angles.svg[Angles]
 
 [NOTE]
 Les forts en math auront remarqué que la boussole suit le sens horaire au lieu du sens trigonométrique.
@@ -74,7 +74,7 @@ On pourra dupliquer les blocs pour aller plus vite.
 Comment faire pour traiter le cas particulier du Nord plus simplement?
 
 
-== Etape 3: Pointer le nord
+=== Etape 3: Pointer le nord
 
 Utiliser le bloc Montre flèche Nord,
 pour afficher une flèche qui pointe toujours vers le nord,

@@ -7,9 +7,9 @@
 :teaser: Moyen
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 9: Feu tricolore
+== Fiche 9: Feu tricolore
 
-== Blocs
+=== Blocs
 
 * Basique:
 ** Pause
@@ -26,35 +26,35 @@
 ** Ecrire en numerique la broche P0 à 1
 * Composants
 ** 3 LEDs: Rouge, verte et bleue
-** 3 resistances: d'au moins 300&Omega;
+** 3 resistances: d'au moins 300Ω
 ** Breadboard et fils
 
-== Etape 1: Piloter une LED
+=== Etape 1: Piloter une LED
 
-=== La LED ou Diode Eletroluminescente
+==== La LED ou Diode Eletroluminescente
 
-image:diode-led.svg[Schema diode LED,float="left"]
+image:09_feu_tricolore/diode-led.svg[Schema diode LED,float="left"]
 
 La diode est un composant polarisé:
 pour qu'elle s'allume, il faut connecter la cathode (patte courte = borne -) à la borne Gnd de la carte Microbit,
 et l'anode (patte longue = borne +) à la broche P0 (ou P1 ou ..) via une résistance.
 
-WARNING: La diode doit impérativement être protégée par une résistance d'au moins 300&Omega;, sinon elle va griller!
+WARNING: La diode doit impérativement être protégée par une résistance d'au moins 300Ω, sinon elle va griller!
 
-=== Montage
+==== Montage
 
-image:montage-1.svg[Montage]
+image:09_feu_tricolore/montage-1.svg[Montage]
 
-=== Programme
+==== Programme
 
 Pour allumer une diode reliée à la broche P0, écrire en numerique 1 sur cette broche. Pour l'éteindre, écrire 0 en numérique sur la broche P0.
 
 Ecrire le programme suivant:
 Lorsque le bouton A est pressé, faire clignoter 5 fois la LED.
 
-== Etape 2: Tricolore
+=== Etape 2: Tricolore
 
-=== Montage
+==== Montage
 
 Répéter le montage du paragraphe précédent 3 fois:
 
@@ -62,9 +62,9 @@ Répéter le montage du paragraphe précédent 3 fois:
 * P1 gère la LED jaune/orange
 * P2 gère la LED verte
 
-image:montage-2.svg[Montage Tricolore]
+image:09_feu_tricolore/montage-2.svg[Montage Tricolore]
 
-=== Programme
+==== Programme
 
 Pour commencer, s'assurer que les 3 LEDs s'allument.
 
@@ -80,13 +80,13 @@ Puis lorsque le bouton A est pressé, enchainer les LEDs comme suite:
 
 Répeter cet enchaînement 5 fois.
 
-== Etape 3: Carrefour radio
+=== Etape 3: Carrefour radio
 
 Ce paragraphe doit être fait avec un autre groupe qui aura réalisé la même fiche. Il faut 2 cartes Micro:bit, une carte *maître* qui donne des instructions et une carte *élève* qui les applique.
 
 Au demarrage, configurer sur les 2 cartes pour utiliser le même canal radio.
 
-=== Sur la carte maître
+==== Sur la carte maître
 
 Envoyer par radio à l'autre carte Micro:bit un nombre correspondant à  chacune des étapes:
 
@@ -101,7 +101,7 @@ Envoyer par radio à l'autre carte Micro:bit un nombre correspondant à  chacune
 
 Utiliser le bloc Montre nombre pour afficher le numéro de l'étape.
 
-=== Sur la carte élève
+==== Sur la carte élève
 
 Utiliser le bloc Quand une donnée est reçue par radio, pour recevoir le numéro de l'étape.
 

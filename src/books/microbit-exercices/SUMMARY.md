@@ -1,4 +1,4 @@
-# Sommaire
+== Sommaire
 
 * Premier pas
     * [Un cœur qui bat](01_coeur_qui_bat/index.adoc)
@@ -13,4 +13,13 @@
     * [Thermomètre](08_thermometre/index.adoc)
 * [Feu tricolore](09_feu_tricolore/index.adoc)
 * [Moteur à courant continu](10_moteur_dc/index.adoc)
+* Ring:Bit
+    * [Ring:Bit Carré](20_ringbit-carre/index.adoc)
+    * [Ring:Bit Télécommande](21_ringbit-telecommande/index.adoc)
+* Piano:Bit
+    * [Piano:Bit Anniversaire](30_piano_anniversaire/index.adoc)
+    * [Piano:Bit Instrument](31_piano_instrument/index.adoc)
+    * [Piano:Bit Couleurs](32_piano_couleurs/index.adoc)
+* Stop:Bit
+    * [Stop:Bit Carrefour](40_feu_tricolore_kitronik/index.adoc)
 

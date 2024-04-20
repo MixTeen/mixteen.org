@@ -7,14 +7,14 @@
 :teaser: Moyen
 :imgteaser: micro-bit-piano-expansion-board-kubii.png
 
-= Fiche 30: Jouer de la musique en lumière
+== Fiche 30: Jouer de la musique en lumière
 
 Niveau: Moyen
 
 Utiliser la carte d'extension Yahboom Piano
 http://www.yahboom.net/study/piano_bit
 
-== Blocs
+=== Blocs
 
 * Entrée
 ** Lorsque le bouton ... pressé
@@ -26,20 +26,20 @@ http://www.yahboom.net/study/piano_bit
 ** Set brightness
 ** Show
 
-== Etape 0: Initialisation Piano:Bit
+=== Etape 0: Initialisation Piano:Bit
 
 * Ajouter l'extension Piano:Bit
 .. Rechercher *https://github.com/lzty634158/YB_Piano*
 .. Sélectionner le paquet *Extension YahBoom YB_Piano*
 
-== Etape 1: Souhaiter Joyeux anniversaire
+=== Etape 1: Souhaiter Joyeux anniversaire
 
 * Lorsqu'on appuie sur le bouton A
 ** Jouer la mélodie *birthday*
 ** Afficher *Joyeux anniversaire*
 
 
-== Etape 2: Allumer les bougies
+=== Etape 2: Allumer les bougies
 
 * Faire clignoter les lumières en alternant les couleurs. 
   Pour allumer les lumières:
@@ -49,4 +49,4 @@ http://www.yahboom.net/study/piano_bit
 ** Alumer avec: RGB Program show
 ** Eteindre avec: RGB Program clear
 
-image:microbit-piano-neopixel.png[]
+image:30_piano_anniversaire/microbit-piano-neopixel.png[]

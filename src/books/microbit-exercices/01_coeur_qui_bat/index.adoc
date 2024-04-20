@@ -7,11 +7,11 @@
 :teaser: Très facile
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 1: Un coeur qui bat
+== Fiche 1: Un coeur qui bat
 
 Niveau: Très facile
 
-== Blocs:
+=== Blocs:
 
 * Basique:
 ** Montrer l'icône
@@ -19,7 +19,7 @@ Niveau: Très facile
 * Boucles:
 ** Répéter 4 fois
 
-== Etape 1: Afficher un coeur
+=== Etape 1: Afficher un coeur
 
 Au démarrage de la carte, afficher un coeur
 
@@ -32,7 +32,7 @@ Au démarrage de la carte, afficher un coeur
 
 Demander à un adulte de copier le programme sur la carte Micro:bit
 
-== Etape 2: Faire battre le coeur
+=== Etape 2: Faire battre le coeur
 
 On va faire clignoter le coeur.
 Pour cela afficher alternativement, un coeur:
