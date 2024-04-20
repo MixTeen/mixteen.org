@@ -7,14 +7,14 @@
 :teaser: Difficile
 :imgteaser: ../30_piano_anniversaire/micro-bit-piano-expansion-board-kubii.png
 
-= Fiche 30: Jouer du piano
+== Fiche 30: Jouer du piano
 
 Niveau: Difficile
 
 Utiliser la carte d'extension Yahboom Piano
 http://www.yahboom.net/study/piano_bit
 
-== Blocs
+=== Blocs
 
 * Base
 ** Au démarrage / Toujours
@@ -30,13 +30,13 @@ http://www.yahboom.net/study/piano_bit
 ** Set pixel color at ... to ...
 ** Show
 
-== Etape 0: Initialisation Piano:Bit
+=== Etape 0: Initialisation Piano:Bit
 
 * Ajouter l'extension Piano:Bit
 .. Rechercher *https://github.com/lzty634158/YB_Piano*
 .. Sélectionner le paquet *Extension YahBoom YB_Piano*
 
-== Etape 1: Répérer les codes touches
+=== Etape 1: Répérer les codes touches
 
 * Au démarrage
 ** Initialiser les 3 LEDs avec RGB Program Close
@@ -45,7 +45,7 @@ http://www.yahboom.net/study/piano_bit
 ** Afficher le nombre `touche`
 
 
-== Etape 2: Jouer du piano
+=== Etape 2: Jouer du piano
 
 * Toujours
 ** Ajouter un bloc Play piano 1
@@ -53,9 +53,9 @@ http://www.yahboom.net/study/piano_bit
 * Au démarrage
 ** Allumer la LED 1 (en face du M) en bleu
 
-image:microbit-piano-neopixel.png[]
+image:31_piano_instrument/microbit-piano-neopixel.png[]
 
-== Etape 3: Régler l'octave
+=== Etape 3: Régler l'octave
 
 * Toujours
 ** Si `touche=L` alors
@@ -69,7 +69,7 @@ image:microbit-piano-neopixel.png[]
 *** Allumer la LED 2 (en face du H)
 ** Jouer du piano avec `octave`
 
-== Etape 4: Fonction
+=== Etape 4: Fonction
 
 Le bloc suivant est répété 3 fois:
 

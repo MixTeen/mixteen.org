@@ -7,11 +7,11 @@
 :teaser: Facile
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 5: Ne touche pas le fil
+== Fiche 5: Ne touche pas le fil
 
 Niveau: Facile/Moyen
 
-== Blocs:
+=== Blocs:
 
 * Basique
 ** Montrer icone
@@ -28,7 +28,7 @@ Niveau: Facile/Moyen
 ** Du fil de fer, ou mieux du fil de cuivre nu
 ** Des pinces croco
 
-== Etape 1: Expérimenter la broche P0
+=== Etape 1: Expérimenter la broche P0
 
 Lorsque on relie, via un fil électrique, la broche *P0* à la broche *GND*,
 C'est comme si on appuyait sur une bouton *P0*
@@ -40,7 +40,7 @@ montre l'icône *non* (une croix)
 Demander à un adulte de copier le programme sur la carte Micro:bit,
 et expérimenter.
 
-== Etape 2: Compter le nombre de touchers
+=== Etape 2: Compter le nombre de touchers
 
 Créer une variable *score*.
 
@@ -52,7 +52,7 @@ Lorsque le broche *P0* est touchée
 incrémenter la variable *score* de 1,
 et afficher le score.
 
-== Etape 3: Bipper quand on touche
+=== Etape 3: Bipper quand on touche
 
 On va avoir besoin de la proche P0, pour brancher une petite enceinte.
 

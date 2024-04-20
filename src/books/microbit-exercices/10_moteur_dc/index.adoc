@@ -7,13 +7,13 @@
 :teaser: Moyen
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 10: Piloter un moteur
+== Fiche 10: Piloter un moteur
 
 Niveau: Moyen
 
 Piloter une moteur à courant continu depuis la carte micro:bit.
 
-== Blocs
+=== Blocs
 
 * Basique
 ** Au démarrage
@@ -31,11 +31,11 @@ Piloter une moteur à courant continu depuis la carte micro:bit.
 ** Ecrire en analogique la broche P0
 * Composants
 ** Moteur DC
-** Résistance d'environ 1k&Omega;: Marron/Noir/Rouge, Rouge/Rouge/rouge
+** Résistance d'environ 1kΩ: Marron/Noir/Rouge, Rouge/Rouge/rouge
 ** Transistor NPN
 ** Breadboard
 
-== Etape 1: Gérer la vitesse
+=== Etape 1: Gérer la vitesse
 
 Créer une variable nommée *vitesse*.
 
@@ -58,11 +58,11 @@ il ne faut pas que la vitesse dépasse 7.
 Lorsque le bouton B est pressé,
 il ne faut pas que la vitesse descende en dessous de 0 (-1, -2).
 
-== Etape 2: Montage
+=== Etape 2: Montage
 
-=== Le transistor NPN 
+==== Le transistor NPN 
 
-image:transistor.svg[Transistor NPN]
+image:10_moteur_dc/transistor.svg[Transistor NPN]
 
 Le transistor joue le rôle d'amplificateur et d'interruteur. 
 
@@ -70,9 +70,9 @@ Lorsqu'un petit courant électrique passe entre la Base B et l'Emetteur E, le tr
 Plus le courant entre B et E est fort, plus le courant entre C et E est fort.
 S'il n'y a aucun courant entre B et E, le transistor ne laisse rien passer entre C et E.
 
-=== Assemblage
+==== Assemblage
 
-image:montage.svg[Montage Moteur Transistor]
+image:10_moteur_dc/montage.svg[Montage Moteur Transistor]
 
 Relier
 
@@ -82,9 +82,9 @@ Relier
 
 Faite vous aider par un adulte pour le montage.
 
-=== Ecrire en analogique
+==== Ecrire en analogique
 
-En permanence, écrire en analogique sur la broche P0, la valeur de la variable vitesse&times;128.
+En permanence, écrire en analogique sur la broche P0, la valeur de la variable vitesse×128.
 
 
 

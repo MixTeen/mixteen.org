@@ -7,11 +7,11 @@
 :teaser: Facile
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 3: Pile ou face
+== Fiche 3: Pile ou face
 
 Niveau: facile
 
-== Blocs:
+=== Blocs:
 
 * Basique:
 ** Montrer l'icône
@@ -26,7 +26,7 @@ Niveau: facile
 ** Si ... alors ... sinon
 
 
-== Etape 1: 
+=== Etape 1: 
 
 
 Lorsqu'on secoue la carte Micro:bit, 
@@ -36,7 +36,7 @@ Si elle choisit vrai, afficher un dessin ou un texte pour *pile*.
 Si elle choisit false, afficher un dessin ou un texte pour *face*.
 
 
-== Etape 2:
+=== Etape 2:
 
 Lorsqu'on appuie sur le bouton A,
 effacer l'écran.

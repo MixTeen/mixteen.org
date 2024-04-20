@@ -7,3 +7,4 @@ firebase.json
 *.iws
 *.iml
 *.ipr
+.vscode/

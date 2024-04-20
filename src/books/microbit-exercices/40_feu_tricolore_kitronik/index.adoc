@@ -7,14 +7,14 @@
 :teaser: Moyen
 :imgteaser: kitronik-stopbit.webp
 
-= Fiche 40: Feu tricolore Stop:Bit
+== Fiche 40: Feu tricolore Stop:Bit
 
 Niveau: Moyen
 
 Utiliser la carte d'extension Kitronik Stop:Bit
 https://kitronik.co.uk/blogs/resources/makecode-tutorials-for-stop-bit-for-micro-bit
 
-== Blocs
+=== Blocs
 
 * Base
 ** Au démarrage / Toujours
@@ -27,14 +27,14 @@ https://kitronik.co.uk/blogs/resources/makecode-tutorials-for-stop-bit-for-micro
 ** Quand une donnée est reçue par radio `receivedNumber`
 
 
-== Etape 0: Initialisation Stop:Bit
+=== Etape 0: Initialisation Stop:Bit
 
 * Visser le feu sur une carte Micro:Bit
 * Ajouter l'extension Stop:Bit
 .. Rechercher *Stop:Bit*
 .. Sélectionner le paquet *Kitronik Stop:Bit*
 
-== Etape 1: Animer un premier feu
+=== Etape 1: Animer un premier feu
 
 * Programmer l'animation suivante:
 ** Allumer la lumière verte pendant 3s
@@ -42,7 +42,7 @@ https://kitronik.co.uk/blogs/resources/makecode-tutorials-for-stop-bit-for-micro
 ** Allumer la lumière rouge pendant 3s
 * Répéter en boucle l'animation
 
-== Etape 2: Piloter le second feu
+=== Etape 2: Piloter le second feu
 
 WARNING: Ne pas allumer deux lumières vertes en même temps, sinon c'est l'accident!
 

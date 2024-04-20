@@ -7,9 +7,9 @@
 :teaser: Facile/Moyen
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 8: Thermomètre
+== Fiche 8: Thermomètre
 
-== Blocs
+=== Blocs
 
 * Basique
 ** Toujours
@@ -22,16 +22,16 @@
 ** Si ... alors ... sinon
 ** Opérateur >
 * Composants (facultatif)
-** Résistance 10k&Omega;
-** Thermistor 10k&Omega;
+** Résistance 10kΩ
+** Thermistor 10kΩ
 
-== Etape 1: Afficher la température
+=== Etape 1: Afficher la température
 
 Répéter indéfiniment les instructions suivantes:
 
 . Dessiner un thermomètre avec Montrer LEDs (voir un exemple ci-dessous)
 . Lire la température (c'est un nombre en °c) et l'afficher
-. Faire un pause d'une &half;s (soit 500ms)
+. Faire un pause d'une ½s (soit 500ms)
 
 Un thermomètre
 
@@ -43,27 +43,27 @@ Un thermomètre
 
 En fonction de la saison et de la météo, on pourra tester, *avec l'aide d'un adulte*, la différence de température entre l'intérieur et l'extérieur.
 
-== Etape 2: Chaud ou froid
+=== Etape 2: Chaud ou froid
 
 Compléter les 3 instructions précédentes:
 
 * Si la température > 15°, alors dessiner un soleil
-* Sinon, si la temperature &le; 15°, alors dessiner la pluie ou un nuage
+* Sinon, si la temperature < 15°, alors dessiner la pluie ou un nuage
 
 
-== Etape 3 (Facultatif): Thermistor
+=== Etape 3 (Facultatif): Thermistor
 
 Un thermistor ou thermistance est un composant qui résiste plus ou moins fortement à l'électricité qui le traverse en fonction de la température qu'il fait. Jusqu'ici nous avons utilisé celui qui dans la carte Micro:bit. Maintenant nous allons utiliser le notre.
 
-=== Montage
+==== Montage
 
-image:montage.svg[Montage]
+image:08_thermometre/montage.svg[Montage]
 
 [NOTE]
 Les plus forts auront remarqué qu'il s'agit d'un pont diviseur de tension.
 
 
-=== Programme
+==== Programme
 
 Pour lire la température détectée par le thermistor, utiliser le bloc Lire broche en analogique P0.
 

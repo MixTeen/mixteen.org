@@ -7,14 +7,14 @@
 :teaser: Moyen
 :imgteaser: ../30_piano_anniversaire/micro-bit-piano-expansion-board-kubii.png
 
-= Fiche 32: Piano lumineux
+== Fiche 32: Piano lumineux
 
 Niveau: Moyen
 
 Utiliser la carte d'extension Yahboom Piano
 http://www.yahboom.net/study/piano_bit
 
-== Blocs
+=== Blocs
 
 * Base
 ** Au démarrage / Toujours
@@ -36,13 +36,13 @@ http://www.yahboom.net/study/piano_bit
 ** show
 
 
-== Etape 0: Initialisation Piano:Bit
+=== Etape 0: Initialisation Piano:Bit
 
 * Ajouter l'extension Piano:Bit
 .. Rechercher *https://github.com/lzty634158/YB_Piano*
 .. Sélectionner le paquet *Extension YahBoom YB_Piano*
 
-== Etape 1: Une couleur pour chaque touche
+=== Etape 1: Une couleur pour chaque touche
 
 * Au démarrage
 ** Initialiser les 3 LEDs avec RGB Program Close
@@ -52,7 +52,7 @@ http://www.yahboom.net/study/piano_bit
 ** Comparer la variable `touche` avec la touche C, D, E
 ** Pour chaque touche mettre une couleur différente
 
-== Etape 2: Générer des nouvelles couleurs
+=== Etape 2: Générer des nouvelles couleurs
 
 Une couleur est constitué de 3 composantes rouge, vert et bleu.
 Chacune d'elle peur aller de 0 à 255.
@@ -89,7 +89,7 @@ Comment faire du rose? Du bleu foncé?
 * Changer la couleur des LEDs, avec la couleur constitué par les 3 composantes `R`, `V` et `B`
 
 
-== Etape 3: pour aller plus loin
+=== Etape 3: pour aller plus loin
 
 * Comment faire pour que les 3 variables `R`, `V` et `B`restent dans l'intervalle 0-255
 ** ne dépassent pas 255 quand on augmente

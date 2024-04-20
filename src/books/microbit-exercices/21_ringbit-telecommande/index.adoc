@@ -7,13 +7,13 @@
 :teaser: Moyen
 :imgteaser: ../../../../img/blog/2022/05/mixit.png
 
-= Fiche 10: Télécommander Ring:Bit
+== Fiche 10: Télécommander Ring:Bit
 
 Niveau: Moyen
 
 Télécommander la voiture ring:bit depuis autre carte micro:bit.
 
-== Blocs
+=== Blocs
 
 * Basique
 ** Au démarrage
@@ -29,19 +29,19 @@ Télécommander la voiture ring:bit depuis autre carte micro:bit.
 ** Tourner à droite/gauche
 ** Avancer
 
-== Etape 0: Initialisation Ring:Bit
+=== Etape 0: Initialisation Ring:Bit
 
 Voir la fiche Dessiner avec Ring:Bit
 
-== Etape 1: Sur Ring:Bit
+=== Etape 1: Sur Ring:Bit
 
 * Quand on recoit le nombre N par radio
-** Si N vaut 0 alors arrêter la voiture et afficher un croix &times;
-** Si N vaut 1 alors faire avancer la voiture et afficher un flèche &uparrow;
-** Si N vaut 2 alors faire tourner la voiture à gauche et afficher flèche &leftarrow;
-** Si N vaut 3 alors faire tourner la voiture à droite et afficher flèche &rightarrow;
+** Si N vaut 0 alors arrêter la voiture et afficher un croix ×
+** Si N vaut 1 alors faire avancer la voiture et afficher un flèche ↑
+** Si N vaut 2 alors faire tourner la voiture à gauche et afficher flèche ←
+** Si N vaut 3 alors faire tourner la voiture à droite et afficher flèche →
 
-== Etape 2: Sur la télécommande
+=== Etape 2: Sur la télécommande
 
 * Au démarrage, après avoir définit le groupe radio, envoyer le nombre 0 pour arrêter la voiture
 * Lorsqu'on appuie sur A, envoyer le nombre 2 pour tourner à gauche
@@ -49,6 +49,6 @@ Voir la fiche Dessiner avec Ring:Bit
 * Lorsqu'on appuie sur A+B, envoyer le nombre 1 pour avancer tout droit
 * Lorsqu'on secoue, envoyer le nombre 0 pour arrêter la voiture
 
-== Etape 3: Réglages
+=== Etape 3: Réglages
 
 * Essayer de régler la vitesse des roues
